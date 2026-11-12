@@ -1,23 +1,25 @@
 
 """Indexe le catalogue CSV et les documents métier dans ChromaDB."""
 
-import csv
 import re
 from pathlib import Path
 
+from psycopg2.extras import RealDictCursor
+
 import config
 import rag
+from database import get_connection
 
 BASE_DIR = Path(__file__).parent
-CSV_PATH = BASE_DIR / "data" / "aromes.csv"
 KNOWLEDGE_DIR = BASE_DIR / "data" / "knowledge"
 
-REQUIRED_COLUMNS = {
-    "id", "nom", "famille", "notes", "applications",
-    "sucrosite", "tenue_chaleur", "certifications",
-    "prix_indicatif_eur_kg", "delai_jours",
-    "volume_minimum_kg", "is_synthetic",
-}
+
+def display_value(value: object) -> str:
+    if value is None or value == []:
+        return "non renseigné"
+    if isinstance(value, list):
+        return ", ".join(str(item) for item in value)
+    return str(value)
 
 
 def build_aroma_document(row: dict) -> str:
@@ -25,49 +27,17 @@ def build_aroma_document(row: dict) -> str:
     return (
         f"Arôme : {row['nom']}. "
         f"Famille : {row['famille']}. "
-        f"Notes : {row['notes']}. "
-        f"Applications : {row['applications']}. "
-        f"Sucrosité : {row['sucrosite']}. "
-        f"Tenue à la chaleur : {row['tenue_chaleur']}. "
-        f"Certifications : {row['certifications']}. "
-        f"Prix indicatif : {row['prix_indicatif_eur_kg']} euros/kg. "
-        f"Délai : {row['delai_jours']} jours. "
-        f"Volume minimum : {row['volume_minimum_kg']} kg."
+        f"Notes : {display_value(row['notes'])}. "
+        f"Applications : {display_value(row['applications'])}. "
+        f"Sucrosité : {display_value(row['sucrosite'])}. "
+        f"Tenue à la chaleur : {display_value(row['tenue_chaleur'])}. "
+        f"Certifications : {display_value(row['certifications'])}. "
+        f"Prix indicatif : {display_value(row['prix_indicatif_eur_kg'])} "
+        "euros/kg. "
+        f"Délai : {display_value(row['delai_jours'])} jours. "
+        f"Volume minimum : {display_value(row['volume_minimum_kg'])} kg. "
+        f"Source : {display_value(row['source_information'])}."
     )
-
-
-def read_csv() -> list[dict]:
-    """Lit le catalogue CSV en détectant son séparateur."""
-    if not CSV_PATH.exists():
-        raise FileNotFoundError(f"Catalogue introuvable : {CSV_PATH}")
-
-    with CSV_PATH.open("r", encoding="utf-8-sig", newline="") as file:
-        sample = file.read(4096)
-        file.seek(0)
-
-        try:
-            dialect = csv.Sniffer().sniff(sample, delimiters=",;\t")
-        except csv.Error:
-            dialect = csv.excel
-            dialect.delimiter = ","
-
-        reader = csv.DictReader(file, dialect=dialect)
-
-        if not reader.fieldnames:
-            raise ValueError("Impossible de lire l'en-tête du CSV.")
-
-        reader.fieldnames = [
-            name.strip().lstrip("\ufeff") for name in reader.fieldnames
-        ]
-
-        missing = REQUIRED_COLUMNS - set(reader.fieldnames)
-        if missing:
-            raise ValueError(
-                f"Colonnes manquantes : {sorted(missing)}. "
-                f"Colonnes détectées : {reader.fieldnames}"
-            )
-
-        return list(reader)
 
 
 def split_text(text: str, max_chars: int = 800) -> list[str]:
@@ -107,31 +77,37 @@ def split_text(text: str, max_chars: int = 800) -> list[str]:
 
 
 def load_aromas():
-    """Prépare les documents du catalogue."""
-    rows = read_csv()
+    """Lit les arômes depuis PostgreSQL et prépare leurs documents."""
+    connection = get_connection()
+    try:
+        with connection.cursor(cursor_factory=RealDictCursor) as cursor:
+            cursor.execute(
+                "SELECT * FROM public.food_aromas ORDER BY aroma_id"
+            )
+            rows = cursor.fetchall()
+    finally:
+        connection.close()
+
     documents = []
     ids = []
     metadatas = []
 
     for row in rows:
-        source_id = (row.get("id") or "").strip()
+        source_id = str(row["aroma_id"]).strip()
 
         if not source_id:
             continue
 
         documents.append(build_aroma_document(row))
         ids.append(source_id)
-
-        is_synthetic = (
-            (row.get("is_synthetic") or "").strip().lower()
-            in ("true", "1", "yes", "oui")
-        )
-
         metadatas.append({
             "source_type": "arome",
             "source_id": source_id,
-            "is_synthetic": is_synthetic,
+            "is_synthetic": bool(row["is_synthetic"]),
         })
+
+    if not documents:
+        raise ValueError("La table public.food_aromas ne contient aucun arôme.")
 
     return ids, documents, metadatas
 
@@ -196,6 +172,20 @@ def main():
 
     embeddings = rag.embed_documents(documents)
     collection = rag.get_collection()
+
+    existing_aromas = collection.get(
+        where={"source_type": "arome"},
+        include=["metadatas"],
+    )
+    current_ids = set(ids)
+    stale_ids = [
+        source_id
+        for source_id in existing_aromas["ids"]
+        if source_id not in current_ids
+    ]
+
+    if stale_ids:
+        collection.delete(ids=stale_ids)
 
     collection.upsert(
         ids=ids,

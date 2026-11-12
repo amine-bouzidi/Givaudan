@@ -1,5 +1,5 @@
 
-"""Configuration partagée pour Olfactive Studio."""
+"""Configuration partagée pour Umi."""
 
 import os
 from pathlib import Path

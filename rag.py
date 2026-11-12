@@ -8,7 +8,7 @@ import config
 
 
 SYSTEM_PROMPT = """
-Tu es Olfactive Studio, un assistant expert en arômes alimentaires.
+Tu es Umi, un assistant expert en arômes alimentaires.
 
 Tu aides les clients à préciser leur besoin et à comprendre
 les informations disponibles dans le catalogue.
@@ -96,11 +96,49 @@ def search_documents(
     return documents
 
 
-def chat(messages: list[dict]) -> str:
+def search_aromas(question: str) -> list[dict]:
+    """Return all aroma records ranked by cosine similarity."""
+    collection = get_collection()
+    aroma_records = collection.get(
+        where={"source_type": "arome"},
+        include=["metadatas"],
+    )
+    aroma_count = len(aroma_records["ids"])
+
+    if not aroma_count:
+        return []
+
+    query_embedding = embed_query(question)
+    results = collection.query(
+        query_embeddings=[query_embedding],
+        n_results=aroma_count,
+        where={"source_type": "arome"},
+        include=["documents", "metadatas", "distances"],
+    )
+
+    documents = []
+
+    for index, document in enumerate(results["documents"][0]):
+        metadata = results["metadatas"][0][index]
+        distance = results["distances"][0][index]
+        documents.append({
+            "text": document,
+            "metadata": metadata,
+            "score": max(0.0, 1.0 - distance),
+        })
+
+    return documents
+
+
+def chat(
+    messages: list[dict],
+    response_format: str | dict | None = None,
+) -> str:
     response = ollama.chat(
         model=config.LLM_MODEL,
         messages=messages,
         think=False,
+        format=response_format,
         options={"temperature": 0},
     )
 
