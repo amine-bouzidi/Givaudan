@@ -1,0 +1,786 @@
+[
+  {
+    "id": "AGR-01",
+    "expected_target_id": "AR-citron-boissons",
+    "detected_family": "Agrumes",
+    "expected_family": "Agrumes",
+    "family_correct": true,
+    "detected_application": "boissons",
+    "expected_application": "boissons",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-citron-boissons",
+      "AR-citron-confiserie",
+      "AR-citron-produits-laitiers",
+      "AR-citron-desserts"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 1,
+    "sql_top4_ids": [
+      "AR-citron-boissons",
+      "AR-lime-boissons"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 353.69,
+    "end_to_end": null
+  },
+  {
+    "id": "AGR-02",
+    "expected_target_id": "AR-citron-confiserie",
+    "detected_family": "Agrumes",
+    "expected_family": "Agrumes",
+    "family_correct": true,
+    "detected_application": "confiserie",
+    "expected_application": "confiserie",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-citron-confiserie",
+      "AR-citron-produits-laitiers",
+      "AR-citron-patisserie",
+      "AR-citron-desserts"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 1,
+    "sql_top4_ids": [
+      "AR-citron-confiserie",
+      "AR-tangerine-confiserie",
+      "AR-lime-confiserie"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 150.39,
+    "end_to_end": null
+  },
+  {
+    "id": "AGR-03",
+    "expected_target_id": "AR-citron-desserts",
+    "detected_family": "Agrumes",
+    "expected_family": "Agrumes",
+    "family_correct": true,
+    "detected_application": "desserts",
+    "expected_application": "desserts",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-citron-desserts",
+      "AR-citron-patisserie",
+      "AR-citron-confiserie",
+      "AR-citron-produits-laitiers"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 1,
+    "sql_top4_ids": [
+      "AR-citron-desserts",
+      "AR-tangerine-desserts",
+      "AR-pamplemousse-desserts",
+      "AR-orange-desserts"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 286.64,
+    "end_to_end": null
+  },
+  {
+    "id": "AGR-04",
+    "expected_target_id": "AR-citron-patisserie",
+    "detected_family": "Agrumes",
+    "expected_family": "Agrumes",
+    "family_correct": true,
+    "detected_application": "pâtisserie",
+    "expected_application": "pâtisserie",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-citron-patisserie",
+      "AR-citron-desserts",
+      "AR-citron-confiserie",
+      "AR-citron-produits-laitiers"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 1,
+    "sql_top4_ids": [
+      "AR-citron-patisserie",
+      "AR-tangerine-patisserie",
+      "AR-pamplemousse-patisserie",
+      "AR-orange-patisserie"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 458.55,
+    "end_to_end": null
+  },
+  {
+    "id": "AGR-05",
+    "expected_target_id": "AR-citron-produits-laitiers",
+    "detected_family": "Agrumes",
+    "expected_family": "Agrumes",
+    "family_correct": true,
+    "detected_application": "produits laitiers",
+    "expected_application": "produits laitiers",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-citron-confiserie",
+      "AR-citron-produits-laitiers",
+      "AR-citron-desserts",
+      "AR-citron-patisserie"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 2,
+    "sql_top4_ids": [
+      "AR-citron-produits-laitiers",
+      "AR-tangerine-produits-laitiers",
+      "AR-lime-produits-laitiers",
+      "AR-pamplemousse-produits-laitiers"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 424.48,
+    "end_to_end": null
+  },
+  {
+    "id": "RED-01",
+    "expected_target_id": "AR-cassis-boissons",
+    "detected_family": "Fruits rouges",
+    "expected_family": "Fruits rouges",
+    "family_correct": true,
+    "detected_application": "boissons",
+    "expected_application": "boissons",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-mure-boissons",
+      "AR-cerise-boissons",
+      "AR-fraise-boissons",
+      "AR-cassis-boissons"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 4,
+    "sql_top4_ids": [
+      "AR-mure-boissons",
+      "AR-cassis-boissons",
+      "AR-myrtille-boissons",
+      "AR-demo-fruits-rouges-boisson-pasteurisee"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 432.55,
+    "end_to_end": null
+  },
+  {
+    "id": "RED-02",
+    "expected_target_id": "AR-cassis-confiserie",
+    "detected_family": "Fruits rouges",
+    "expected_family": "Fruits rouges",
+    "family_correct": true,
+    "detected_application": "confiserie",
+    "expected_application": "confiserie",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-mure-confiserie",
+      "AR-fraise-confiserie",
+      "AR-cerise-confiserie",
+      "AR-framboise-confiserie"
+    ],
+    "vector_target_hit_at_4": false,
+    "vector_target_rank": null,
+    "sql_top4_ids": [
+      "AR-fraise-confiserie",
+      "AR-framboise-confiserie",
+      "AR-cassis-confiserie"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 335.47,
+    "end_to_end": null
+  },
+  {
+    "id": "RED-03",
+    "expected_target_id": "AR-cassis-desserts",
+    "detected_family": "Fruits rouges",
+    "expected_family": "Fruits rouges",
+    "family_correct": true,
+    "detected_application": "desserts",
+    "expected_application": "desserts",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-mure-desserts",
+      "AR-fraise-desserts",
+      "AR-cerise-desserts",
+      "AR-framboise-desserts"
+    ],
+    "vector_target_hit_at_4": false,
+    "vector_target_rank": null,
+    "sql_top4_ids": [
+      "AR-mure-desserts",
+      "AR-cassis-desserts"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 554.25,
+    "end_to_end": null
+  },
+  {
+    "id": "RED-04",
+    "expected_target_id": "AR-cassis-patisserie",
+    "detected_family": "Fruits rouges",
+    "expected_family": "Fruits rouges",
+    "family_correct": true,
+    "detected_application": "pâtisserie",
+    "expected_application": "pâtisserie",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-mure-patisserie",
+      "AR-fraise-patisserie",
+      "AR-cerise-patisserie",
+      "AR-mure-desserts"
+    ],
+    "vector_target_hit_at_4": false,
+    "vector_target_rank": null,
+    "sql_top4_ids": [
+      "AR-mure-patisserie",
+      "AR-fraise-patisserie",
+      "AR-cassis-patisserie"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 374.34,
+    "end_to_end": null
+  },
+  {
+    "id": "RED-05",
+    "expected_target_id": "AR-cassis-produits-laitiers",
+    "detected_family": "Fruits rouges",
+    "expected_family": "Fruits rouges",
+    "family_correct": true,
+    "detected_application": "produits laitiers",
+    "expected_application": "produits laitiers",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-mure-confiserie",
+      "AR-mure-desserts",
+      "AR-fraise-desserts",
+      "AR-cerise-desserts"
+    ],
+    "vector_target_hit_at_4": false,
+    "vector_target_rank": null,
+    "sql_top4_ids": [
+      "AR-fraise-produits-laitiers",
+      "AR-cerise-produits-laitiers",
+      "AR-cassis-produits-laitiers"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 403.23,
+    "end_to_end": null
+  },
+  {
+    "id": "TRO-01",
+    "expected_target_id": "AR-ananas-boissons",
+    "detected_family": "Fruits tropicaux",
+    "expected_family": "Fruits tropicaux",
+    "family_correct": true,
+    "detected_application": "boissons",
+    "expected_application": "boissons",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-grenade-boissons",
+      "AR-fruit-de-la-passion-boissons",
+      "AR-banane-boissons",
+      "AR-ananas-boissons"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 4,
+    "sql_top4_ids": [
+      "AR-grenade-boissons",
+      "AR-ananas-boissons",
+      "AR-mangue-boissons",
+      "AR-kiwi-boissons"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 337.12,
+    "end_to_end": null
+  },
+  {
+    "id": "TRO-02",
+    "expected_target_id": "AR-ananas-confiserie",
+    "detected_family": "Fruits tropicaux",
+    "expected_family": "Fruits tropicaux",
+    "family_correct": true,
+    "detected_application": "confiserie",
+    "expected_application": "confiserie",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-mangue-confiserie",
+      "AR-fruit-de-la-passion-confiserie",
+      "AR-grenade-confiserie",
+      "AR-ananas-confiserie"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 4,
+    "sql_top4_ids": [
+      "AR-mangue-confiserie",
+      "AR-fruit-de-la-passion-confiserie",
+      "AR-ananas-confiserie"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 361.95,
+    "end_to_end": null
+  },
+  {
+    "id": "TRO-03",
+    "expected_target_id": "AR-ananas-desserts",
+    "detected_family": "Fruits tropicaux",
+    "expected_family": "Fruits tropicaux",
+    "family_correct": true,
+    "detected_application": "desserts",
+    "expected_application": "desserts",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-mangue-desserts",
+      "AR-grenade-desserts",
+      "AR-banane-desserts",
+      "AR-fruit-de-la-passion-desserts"
+    ],
+    "vector_target_hit_at_4": false,
+    "vector_target_rank": null,
+    "sql_top4_ids": [
+      "AR-mangue-desserts",
+      "AR-ananas-desserts"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 409.37,
+    "end_to_end": null
+  },
+  {
+    "id": "TRO-04",
+    "expected_target_id": "AR-ananas-patisserie",
+    "detected_family": "Fruits tropicaux",
+    "expected_family": "Fruits tropicaux",
+    "family_correct": true,
+    "detected_application": "pâtisserie",
+    "expected_application": "pâtisserie",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-fruit-de-la-passion-patisserie",
+      "AR-grenade-patisserie",
+      "AR-mangue-patisserie",
+      "AR-fruit-de-la-passion-desserts"
+    ],
+    "vector_target_hit_at_4": false,
+    "vector_target_rank": null,
+    "sql_top4_ids": [
+      "AR-kiwi-patisserie",
+      "AR-ananas-patisserie"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 347.33,
+    "end_to_end": null
+  },
+  {
+    "id": "TRO-05",
+    "expected_target_id": "AR-ananas-produits-laitiers",
+    "detected_family": "Fruits tropicaux",
+    "expected_family": "Fruits tropicaux",
+    "family_correct": true,
+    "detected_application": "produits laitiers",
+    "expected_application": "produits laitiers",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-fruit-de-la-passion-patisserie",
+      "AR-fruit-de-la-passion-confiserie",
+      "AR-fruit-de-la-passion-boissons",
+      "AR-fruit-de-la-passion-desserts"
+    ],
+    "vector_target_hit_at_4": false,
+    "vector_target_rank": null,
+    "sql_top4_ids": [
+      "AR-ananas-produits-laitiers"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 335.17,
+    "end_to_end": null
+  },
+  {
+    "id": "HER-01",
+    "expected_target_id": "AR-basilic-assaisonnements",
+    "detected_family": "Herbes et épices",
+    "expected_family": "Herbes et épices",
+    "family_correct": true,
+    "detected_application": "assaisonnements",
+    "expected_application": "assaisonnements",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-persil-assaisonnements",
+      "AR-cannelle-assaisonnements",
+      "AR-coriandre-assaisonnements",
+      "AR-menthe-assaisonnements"
+    ],
+    "vector_target_hit_at_4": false,
+    "vector_target_rank": null,
+    "sql_top4_ids": [
+      "AR-coriandre-assaisonnements",
+      "AR-basilic-assaisonnements"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 472.01,
+    "end_to_end": null
+  },
+  {
+    "id": "HER-02",
+    "expected_target_id": "AR-basilic-boissons",
+    "detected_family": "Herbes et épices",
+    "expected_family": "Herbes et épices",
+    "family_correct": true,
+    "detected_application": "boissons",
+    "expected_application": "boissons",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-coriandre-boissons",
+      "AR-persil-boissons",
+      "AR-cannelle-boissons",
+      "AR-basilic-boissons"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 4,
+    "sql_top4_ids": [
+      "AR-persil-boissons",
+      "AR-cannelle-boissons",
+      "AR-basilic-boissons"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 375.71,
+    "end_to_end": null
+  },
+  {
+    "id": "HER-03",
+    "expected_target_id": "AR-basilic-plats-prepares",
+    "detected_family": "Herbes et épices",
+    "expected_family": "Herbes et épices",
+    "family_correct": true,
+    "detected_application": "plats préparés",
+    "expected_application": "plats préparés",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-basilic-plats-prepares",
+      "AR-basilic-assaisonnements",
+      "AR-basilic-snacks",
+      "AR-basilic-sauces"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 1,
+    "sql_top4_ids": [
+      "AR-basilic-plats-prepares"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 470.3,
+    "end_to_end": null
+  },
+  {
+    "id": "HER-04",
+    "expected_target_id": "AR-basilic-sauces",
+    "detected_family": "Herbes et épices",
+    "expected_family": "Herbes et épices",
+    "family_correct": true,
+    "detected_application": "sauces",
+    "expected_application": "sauces",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-coriandre-sauces",
+      "AR-persil-sauces",
+      "AR-cannelle-sauces",
+      "AR-gingembre-sauces"
+    ],
+    "vector_target_hit_at_4": false,
+    "vector_target_rank": null,
+    "sql_top4_ids": [
+      "AR-gingembre-sauces",
+      "AR-menthe-sauces",
+      "AR-basilic-sauces"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 372.44,
+    "end_to_end": null
+  },
+  {
+    "id": "HER-05",
+    "expected_target_id": "AR-gingembre-snacks",
+    "detected_family": "Herbes et épices",
+    "expected_family": "Herbes et épices",
+    "family_correct": true,
+    "detected_application": "snacks",
+    "expected_application": "snacks",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-gingembre-snacks",
+      "AR-tomate-grillee-snacks",
+      "AR-cannelle-snacks",
+      "AR-legumes-grilles-snacks"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 1,
+    "sql_top4_ids": [
+      "AR-gingembre-snacks",
+      "AR-cannelle-snacks",
+      "AR-coriandre-snacks",
+      "AR-menthe-snacks"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 327.75,
+    "end_to_end": null
+  },
+  {
+    "id": "GOU-01",
+    "expected_target_id": "AR-biscuit-biscuits",
+    "detected_family": "Notes gourmandes",
+    "expected_family": "Notes gourmandes",
+    "family_correct": true,
+    "detected_application": "biscuits",
+    "expected_application": "biscuits",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-vanille-biscuits",
+      "AR-biscuit-biscuits",
+      "AR-chocolat-biscuits",
+      "AR-cafe-biscuits"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 2,
+    "sql_top4_ids": [
+      "AR-biscuit-biscuits",
+      "AR-note-lactee-biscuits",
+      "AR-caramel-biscuits",
+      "AR-cacao-biscuits"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 481.99,
+    "end_to_end": null
+  },
+  {
+    "id": "GOU-02",
+    "expected_target_id": "AR-biscuit-boissons",
+    "detected_family": "Notes gourmandes",
+    "expected_family": "Notes gourmandes",
+    "family_correct": true,
+    "detected_application": "boissons",
+    "expected_application": "boissons",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-vanille-boissons",
+      "AR-vanille-desserts",
+      "AR-vanille-chocolat",
+      "AR-vanille-glaces"
+    ],
+    "vector_target_hit_at_4": false,
+    "vector_target_rank": null,
+    "sql_top4_ids": [
+      "AR-biscuit-boissons",
+      "AR-chocolat-boissons",
+      "AR-cafe-boissons",
+      "AR-note-lactee-boissons"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 342.12,
+    "end_to_end": null
+  },
+  {
+    "id": "GOU-03",
+    "expected_target_id": "AR-biscuit-chocolat",
+    "detected_family": "Notes gourmandes",
+    "expected_family": "Notes gourmandes",
+    "family_correct": true,
+    "detected_application": "chocolat",
+    "expected_application": "chocolat",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-vanille-chocolat",
+      "AR-vanille-desserts",
+      "AR-vanille-biscuits",
+      "AR-biscuit-chocolat"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 4,
+    "sql_top4_ids": [
+      "AR-vanille-chocolat",
+      "AR-biscuit-chocolat",
+      "AR-cafe-chocolat"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 392.16,
+    "end_to_end": null
+  },
+  {
+    "id": "GOU-04",
+    "expected_target_id": "AR-biscuit-desserts",
+    "detected_family": "Notes gourmandes",
+    "expected_family": "Notes gourmandes",
+    "family_correct": true,
+    "detected_application": "desserts",
+    "expected_application": "desserts",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-caramel-desserts",
+      "AR-caramel-chocolat",
+      "AR-chocolat-desserts",
+      "AR-caramel-glaces"
+    ],
+    "vector_target_hit_at_4": false,
+    "vector_target_rank": null,
+    "sql_top4_ids": [
+      "AR-chocolat-desserts",
+      "AR-cacao-desserts",
+      "AR-cafe-desserts",
+      "AR-biscuit-desserts"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 306.38,
+    "end_to_end": null
+  },
+  {
+    "id": "GOU-05",
+    "expected_target_id": "AR-biscuit-glaces",
+    "detected_family": "Notes gourmandes",
+    "expected_family": "Notes gourmandes",
+    "family_correct": true,
+    "detected_application": "glaces",
+    "expected_application": "glaces",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-chocolat-glaces",
+      "AR-biscuit-chocolat",
+      "AR-biscuit-glaces",
+      "AR-caramel-glaces"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 3,
+    "sql_top4_ids": [
+      "AR-chocolat-glaces",
+      "AR-biscuit-glaces"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 325.73,
+    "end_to_end": null
+  },
+  {
+    "id": "SAL-01",
+    "expected_target_id": "AR-ail-roti-assaisonnements",
+    "detected_family": "Notes salées",
+    "expected_family": "Notes salées",
+    "family_correct": true,
+    "detected_application": "assaisonnements",
+    "expected_application": "assaisonnements",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-oignon-assaisonnements",
+      "AR-pamplemousse-confiserie",
+      "AR-tangerine-confiserie",
+      "AR-mure-confiserie"
+    ],
+    "vector_target_hit_at_4": false,
+    "vector_target_rank": null,
+    "sql_top4_ids": [
+      "AR-oignon-assaisonnements",
+      "AR-ail-roti-assaisonnements",
+      "AR-tomate-grillee-assaisonnements",
+      "AR-poivron-assaisonnements"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 530.22,
+    "end_to_end": null
+  },
+  {
+    "id": "SAL-02",
+    "expected_target_id": "AR-ail-roti-plats-prepares",
+    "detected_family": "Notes salées",
+    "expected_family": "Notes salées",
+    "family_correct": true,
+    "detected_application": "plats préparés",
+    "expected_application": "plats préparés",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-poulet-plats-prepares",
+      "AR-ail-roti-plats-prepares",
+      "AR-oignon-plats-prepares",
+      "AR-tomate-grillee-plats-prepares"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 2,
+    "sql_top4_ids": [
+      "AR-ail-roti-plats-prepares",
+      "AR-oignon-plats-prepares",
+      "AR-tomate-grillee-plats-prepares",
+      "AR-legumes-grilles-plats-prepares"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 619.6,
+    "end_to_end": null
+  },
+  {
+    "id": "SAL-03",
+    "expected_target_id": "AR-ail-roti-sauces",
+    "detected_family": "Notes salées",
+    "expected_family": "Notes salées",
+    "family_correct": true,
+    "detected_application": "sauces",
+    "expected_application": "sauces",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-ail-roti-sauces",
+      "AR-persil-sauces",
+      "AR-tomate-grillee-sauces",
+      "AR-oignon-sauces"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 1,
+    "sql_top4_ids": [
+      "AR-ail-roti-sauces",
+      "AR-poulet-sauces",
+      "AR-buf-sauces",
+      "AR-poivron-sauces"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 420.71,
+    "end_to_end": null
+  },
+  {
+    "id": "SAL-04",
+    "expected_target_id": "AR-ail-roti-snacks",
+    "detected_family": "Notes salées",
+    "expected_family": "Notes salées",
+    "family_correct": true,
+    "detected_application": "snacks",
+    "expected_application": "snacks",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-poulet-snacks",
+      "AR-oignon-snacks",
+      "AR-tomate-grillee-snacks",
+      "AR-ail-roti-snacks"
+    ],
+    "vector_target_hit_at_4": true,
+    "vector_target_rank": 4,
+    "sql_top4_ids": [
+      "AR-tomate-grillee-snacks",
+      "AR-ail-roti-snacks",
+      "AR-legumes-grilles-snacks",
+      "AR-buf-snacks"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 389.71,
+    "end_to_end": null
+  },
+  {
+    "id": "SAL-05",
+    "expected_target_id": "AR-ail-roti-soupes",
+    "detected_family": "Notes salées",
+    "expected_family": "Notes salées",
+    "family_correct": true,
+    "detected_application": "soupes",
+    "expected_application": "soupes",
+    "application_correct": true,
+    "vector_top4_ids": [
+      "AR-buf-soupes",
+      "AR-legumes-grilles-soupes",
+      "AR-poivron-soupes",
+      "AR-tomate-grillee-soupes"
+    ],
+    "vector_target_hit_at_4": false,
+    "vector_target_rank": null,
+    "sql_top4_ids": [
+      "AR-buf-soupes",
+      "AR-legumes-grilles-soupes",
+      "AR-tomate-grillee-soupes",
+      "AR-ail-roti-soupes"
+    ],
+    "sql_target_hit_at_4": true,
+    "latency_ms": 296.7,
+    "end_to_end": null
+  }
+]
