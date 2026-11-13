@@ -1,0 +1,14 @@
+{
+  "generated_at_utc": "2026-11-13T19:05:12.183799+00:00",
+  "condition": "Qwen sans RAG ni catalogue fourni au modèle",
+  "llm_model": "qwen2.5:1.5b",
+  "dataset": "cas_reference_30.jsonl",
+  "case_count": 30,
+  "retrieved_context_provided": false,
+  "target_name_mentioned_count": 0,
+  "target_name_mentioned_rate": 0.0,
+  "mean_latency_ms": 5987.53,
+  "median_latency_ms": 5256.46,
+  "p95_latency_ms": 11578.13,
+  "scope_note": "La cible est reconnue uniquement si son libellé exact, obtenu depuis l'archive de GET /aromes, apparaît dans la réponse du modèle sans RAG. Cette mesure lexicale est conservative et ne mesure pas une équivalence sémantique."
+}

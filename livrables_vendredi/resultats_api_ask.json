@@ -1,0 +1,2342 @@
+[
+  {
+    "case_id": "AGR-01",
+    "question": "Je cherche un arôme citron pour une boisson, avec une sucrosité égale à 3.",
+    "expected_target_id": "AR-citron-boissons",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 3\n\n1. Citron - boissons (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : boissons\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 73.12 €/kg\n  Délai : 17 jours\n  Volume minimum : 5.00 kg\n\n2. Lime - boissons (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : boissons\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 58.91 €/kg\n  Délai : 13 jours\n  Volume minimum : 5.00 kg",
+    "suggestions": [
+      "Citron - boissons",
+      "Lime - boissons"
+    ],
+    "source_ids": [
+      "AR-citron-boissons",
+      "AR-lime-boissons"
+    ],
+    "target_in_sources": true,
+    "source_count": 2,
+    "compliant_source_count": 2,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-citron-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Citron - boissons. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : boissons. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 73.12 euros/kg. Délai : 17 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7711368203163147,
+        "nom": "Citron - boissons",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 73.12,
+        "delai": 17
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-lime-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Lime - boissons. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : boissons. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 58.91 euros/kg. Délai : 13 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7088814973831177,
+        "nom": "Lime - boissons",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 58.91,
+        "delai": 13
+      }
+    ],
+    "latency_ms": 5373.32,
+    "expected_target_name_from_aromes_api": "Citron - boissons",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "AGR-02",
+    "question": "Je cherche un arôme citron pour une confiserie, avec une sucrosité égale à 3.",
+    "expected_target_id": "AR-citron-confiserie",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 3\n\n1. Citron - confiserie (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : confiserie\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 51.98 €/kg\n  Délai : 27 jours\n  Volume minimum : 5.00 kg\n\n2. Tangerine - confiserie (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : confiserie\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 85.25 €/kg\n  Délai : 16 jours\n  Volume minimum : 15.00 kg\n\n3. Lime - confiserie (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : confiserie\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 64.00 €/kg\n  Délai : 29 jours\n  Volume minimum : 15.00 kg",
+    "suggestions": [
+      "Citron - confiserie",
+      "Tangerine - confiserie",
+      "Lime - confiserie"
+    ],
+    "source_ids": [
+      "AR-citron-confiserie",
+      "AR-tangerine-confiserie",
+      "AR-lime-confiserie"
+    ],
+    "target_in_sources": true,
+    "source_count": 3,
+    "compliant_source_count": 3,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-citron-confiserie",
+        "is_synthetic": true,
+        "text": "Arôme : Citron - confiserie. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : confiserie. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 51.98 euros/kg. Délai : 27 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7702944278717041,
+        "nom": "Citron - confiserie",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "confiserie"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 51.98,
+        "delai": 27
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-tangerine-confiserie",
+        "is_synthetic": true,
+        "text": "Arôme : Tangerine - confiserie. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : confiserie. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 85.25 euros/kg. Délai : 16 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7048484086990356,
+        "nom": "Tangerine - confiserie",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "confiserie"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 85.25,
+        "delai": 16
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-lime-confiserie",
+        "is_synthetic": true,
+        "text": "Arôme : Lime - confiserie. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : confiserie. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 64.00 euros/kg. Délai : 29 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.6956315636634827,
+        "nom": "Lime - confiserie",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "confiserie"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 64.0,
+        "delai": 29
+      }
+    ],
+    "latency_ms": 29750.8,
+    "expected_target_name_from_aromes_api": "Citron - confiserie",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "AGR-03",
+    "question": "Je cherche un arôme citron pour un dessert, avec une sucrosité égale à 3.",
+    "expected_target_id": "AR-citron-desserts",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 3\n\n1. Citron - desserts (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : desserts\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 56.02 €/kg\n  Délai : 15 jours\n  Volume minimum : 15.00 kg\n\n2. Tangerine - desserts (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : desserts\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 82.35 €/kg\n  Délai : 22 jours\n  Volume minimum : 15.00 kg\n\n3. Pamplemousse - desserts (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : desserts\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 79.01 €/kg\n  Délai : 18 jours\n  Volume minimum : 15.00 kg\n\n4. Orange - desserts (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : desserts\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 68.11 €/kg\n  Délai : 27 jours\n  Volume minimum : 5.00 kg",
+    "suggestions": [
+      "Citron - desserts",
+      "Tangerine - desserts",
+      "Pamplemousse - desserts",
+      "Orange - desserts"
+    ],
+    "source_ids": [
+      "AR-citron-desserts",
+      "AR-tangerine-desserts",
+      "AR-pamplemousse-desserts",
+      "AR-orange-desserts"
+    ],
+    "target_in_sources": true,
+    "source_count": 4,
+    "compliant_source_count": 4,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-citron-desserts",
+        "is_synthetic": true,
+        "text": "Arôme : Citron - desserts. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : desserts. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 56.02 euros/kg. Délai : 15 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.8042844533920288,
+        "nom": "Citron - desserts",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "desserts"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 56.02,
+        "delai": 15
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-tangerine-desserts",
+        "is_synthetic": true,
+        "text": "Arôme : Tangerine - desserts. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : desserts. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 82.35 euros/kg. Délai : 22 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.750434160232544,
+        "nom": "Tangerine - desserts",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "desserts"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 82.35,
+        "delai": 22
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-pamplemousse-desserts",
+        "is_synthetic": true,
+        "text": "Arôme : Pamplemousse - desserts. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : desserts. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 79.01 euros/kg. Délai : 18 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7439377307891846,
+        "nom": "Pamplemousse - desserts",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "desserts"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 79.01,
+        "delai": 18
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-orange-desserts",
+        "is_synthetic": true,
+        "text": "Arôme : Orange - desserts. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : desserts. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 68.11 euros/kg. Délai : 27 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.725252091884613,
+        "nom": "Orange - desserts",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "desserts"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 68.11,
+        "delai": 27
+      }
+    ],
+    "latency_ms": 38576.26,
+    "expected_target_name_from_aromes_api": "Citron - desserts",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "AGR-04",
+    "question": "Je cherche un arôme citron pour une pâtisserie, avec une sucrosité égale à 3.",
+    "expected_target_id": "AR-citron-patisserie",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 3\n\n1. Citron - pâtisserie (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : pâtisserie\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 78.25 €/kg\n  Délai : 16 jours\n  Volume minimum : 5.00 kg\n\n2. Tangerine - pâtisserie (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : pâtisserie\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 58.41 €/kg\n  Délai : 24 jours\n  Volume minimum : 5.00 kg\n\n3. Pamplemousse - pâtisserie (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : pâtisserie\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 88.83 €/kg\n  Délai : 22 jours\n  Volume minimum : 15.00 kg\n\n4. Orange - pâtisserie (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : pâtisserie\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 58.25 €/kg\n  Délai : 30 jours\n  Volume minimum : 5.00 kg",
+    "suggestions": [
+      "Citron - pâtisserie",
+      "Tangerine - pâtisserie",
+      "Pamplemousse - pâtisserie",
+      "Orange - pâtisserie"
+    ],
+    "source_ids": [
+      "AR-citron-patisserie",
+      "AR-tangerine-patisserie",
+      "AR-pamplemousse-patisserie",
+      "AR-orange-patisserie"
+    ],
+    "target_in_sources": true,
+    "source_count": 4,
+    "compliant_source_count": 4,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-citron-patisserie",
+        "is_synthetic": true,
+        "text": "Arôme : Citron - pâtisserie. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : pâtisserie. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 78.25 euros/kg. Délai : 16 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7945813536643982,
+        "nom": "Citron - pâtisserie",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "pâtisserie"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 78.25,
+        "delai": 16
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-tangerine-patisserie",
+        "is_synthetic": true,
+        "text": "Arôme : Tangerine - pâtisserie. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : pâtisserie. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 58.41 euros/kg. Délai : 24 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7342488765716553,
+        "nom": "Tangerine - pâtisserie",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "pâtisserie"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 58.41,
+        "delai": 24
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-pamplemousse-patisserie",
+        "is_synthetic": true,
+        "text": "Arôme : Pamplemousse - pâtisserie. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : pâtisserie. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 88.83 euros/kg. Délai : 22 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7262135744094849,
+        "nom": "Pamplemousse - pâtisserie",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "pâtisserie"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 88.83,
+        "delai": 22
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-orange-patisserie",
+        "is_synthetic": true,
+        "text": "Arôme : Orange - pâtisserie. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : pâtisserie. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 58.25 euros/kg. Délai : 30 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.709385871887207,
+        "nom": "Orange - pâtisserie",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "pâtisserie"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 58.25,
+        "delai": 30
+      }
+    ],
+    "latency_ms": 40505.83,
+    "expected_target_name_from_aromes_api": "Citron - pâtisserie",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "AGR-05",
+    "question": "Je cherche un arôme citron pour un yaourt, avec une sucrosité égale à 3.",
+    "expected_target_id": "AR-citron-produits-laitiers",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 3\n\n1. Citron - produits laitiers (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : produits laitiers\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 66.75 €/kg\n  Délai : 30 jours\n  Volume minimum : 15.00 kg\n\n2. Tangerine - produits laitiers (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : produits laitiers\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 55.33 €/kg\n  Délai : 27 jours\n  Volume minimum : 15.00 kg\n\n3. Pamplemousse - produits laitiers (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : produits laitiers\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 71.05 €/kg\n  Délai : 27 jours\n  Volume minimum : 5.00 kg\n\n4. Lime - produits laitiers (Agrumes)\n- Notes : Profil d'agrume frais, zesté et fruité.\n- Applications : produits laitiers\n- Sucrosité : 3\n  Tenue à la chaleur : faible\n  Certifications : non renseigné\n  Prix indicatif : 46.49 €/kg\n  Délai : 29 jours\n  Volume minimum : 15.00 kg",
+    "suggestions": [
+      "Citron - produits laitiers",
+      "Tangerine - produits laitiers",
+      "Pamplemousse - produits laitiers",
+      "Lime - produits laitiers"
+    ],
+    "source_ids": [
+      "AR-citron-produits-laitiers",
+      "AR-tangerine-produits-laitiers",
+      "AR-pamplemousse-produits-laitiers",
+      "AR-lime-produits-laitiers"
+    ],
+    "target_in_sources": true,
+    "source_count": 4,
+    "compliant_source_count": 4,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-citron-produits-laitiers",
+        "is_synthetic": true,
+        "text": "Arôme : Citron - produits laitiers. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : produits laitiers. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 66.75 euros/kg. Délai : 30 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7605457305908203,
+        "nom": "Citron - produits laitiers",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "produits laitiers"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 66.75,
+        "delai": 30
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-tangerine-produits-laitiers",
+        "is_synthetic": true,
+        "text": "Arôme : Tangerine - produits laitiers. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : produits laitiers. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 55.33 euros/kg. Délai : 27 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7097954750061035,
+        "nom": "Tangerine - produits laitiers",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "produits laitiers"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 55.33,
+        "delai": 27
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-pamplemousse-produits-laitiers",
+        "is_synthetic": true,
+        "text": "Arôme : Pamplemousse - produits laitiers. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : produits laitiers. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 71.05 euros/kg. Délai : 27 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7039231061935425,
+        "nom": "Pamplemousse - produits laitiers",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "produits laitiers"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 71.05,
+        "delai": 27
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-lime-produits-laitiers",
+        "is_synthetic": true,
+        "text": "Arôme : Lime - produits laitiers. Famille : Agrumes. Notes : Profil d'agrume frais, zesté et fruité.. Applications : produits laitiers. Sucrosité : 3. Tenue à la chaleur : faible. Certifications : non renseigné. Prix indicatif : 46.49 euros/kg. Délai : 29 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.6970341205596924,
+        "nom": "Lime - produits laitiers",
+        "famille": "Agrumes",
+        "notes": "Profil d'agrume frais, zesté et fruité.",
+        "applications": [
+          "produits laitiers"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "faible",
+        "prix": 46.49,
+        "delai": 29
+      }
+    ],
+    "latency_ms": 40690.73,
+    "expected_target_name_from_aromes_api": "Citron - produits laitiers",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "RED-01",
+    "question": "Je cherche un arôme de fruits rouges pour une boisson, avec une sucrosité égale à 3.",
+    "expected_target_id": "AR-cassis-boissons",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 3\n\n1. Mûre - boissons (Fruits rouges)\n- Notes : Profil fruité, acidulé et rond.\n- Applications : boissons\n- Sucrosité : 3\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 115.04 €/kg\n  Délai : 25 jours\n  Volume minimum : 5.00 kg\n\n2. Cassis - boissons (Fruits rouges)\n- Notes : Profil fruité, acidulé et rond.\n- Applications : boissons\n- Sucrosité : 3\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 80.68 €/kg\n  Délai : 19 jours\n  Volume minimum : 15.00 kg\n\n3. Myrtille - boissons (Fruits rouges)\n- Notes : Profil fruité, acidulé et rond.\n- Applications : boissons\n- Sucrosité : 3\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 70.37 €/kg\n  Délai : 10 jours\n  Volume minimum : 5.00 kg\n\n4. Arôme fruits rouges pour boisson pasteurisée - démo (Fruits rouges)\n- Notes : Profil de fruits rouges pour le scenario de boisson pasteurisee.\n- Applications : boissons\n- Sucrosité : 3\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : non renseigné €/kg\n  Délai : non renseigné jours\n  Volume minimum : non renseigné kg",
+    "suggestions": [
+      "Mûre - boissons",
+      "Cassis - boissons",
+      "Myrtille - boissons",
+      "Arôme fruits rouges pour boisson pasteurisée - démo"
+    ],
+    "source_ids": [
+      "AR-mure-boissons",
+      "AR-cassis-boissons",
+      "AR-myrtille-boissons",
+      "AR-demo-fruits-rouges-boisson-pasteurisee"
+    ],
+    "target_in_sources": true,
+    "source_count": 4,
+    "compliant_source_count": 4,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-mure-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Mûre - boissons. Famille : Fruits rouges. Notes : Profil fruité, acidulé et rond.. Applications : boissons. Sucrosité : 3. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 115.04 euros/kg. Délai : 25 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7976036071777344,
+        "nom": "Mûre - boissons",
+        "famille": "Fruits rouges",
+        "notes": "Profil fruité, acidulé et rond.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "moyenne",
+        "prix": 115.04,
+        "delai": 25
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-cassis-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Cassis - boissons. Famille : Fruits rouges. Notes : Profil fruité, acidulé et rond.. Applications : boissons. Sucrosité : 3. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 80.68 euros/kg. Délai : 19 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7874878644943237,
+        "nom": "Cassis - boissons",
+        "famille": "Fruits rouges",
+        "notes": "Profil fruité, acidulé et rond.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "moyenne",
+        "prix": 80.68,
+        "delai": 19
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-myrtille-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Myrtille - boissons. Famille : Fruits rouges. Notes : Profil fruité, acidulé et rond.. Applications : boissons. Sucrosité : 3. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 70.37 euros/kg. Délai : 10 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7841309309005737,
+        "nom": "Myrtille - boissons",
+        "famille": "Fruits rouges",
+        "notes": "Profil fruité, acidulé et rond.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "moyenne",
+        "prix": 70.37,
+        "delai": 10
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-demo-fruits-rouges-boisson-pasteurisee",
+        "is_synthetic": true,
+        "text": "Arôme : Arôme fruits rouges pour boisson pasteurisée - démo. Famille : Fruits rouges. Notes : Profil de fruits rouges pour le scenario de boisson pasteurisee.. Applications : boissons. Sucrosité : 3. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : non renseigné euros/kg. Délai : non renseigné jours. Volume minimum : non renseigné kg. Source : Synthetic demo record for a pasteurized beverage scenario; not a verified Givaudan SKU..",
+        "score": 0.7539684772491455,
+        "nom": "Arôme fruits rouges pour boisson pasteurisée - démo",
+        "famille": "Fruits rouges",
+        "notes": "Profil de fruits rouges pour le scenario de boisson pasteurisee.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "élevée",
+        "prix": null,
+        "delai": null
+      }
+    ],
+    "latency_ms": 37065.29,
+    "expected_target_name_from_aromes_api": "Cassis - boissons",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "RED-02",
+    "question": "Je cherche un arôme de fruits rouges pour une confiserie, avec une sucrosité égale à 5.",
+    "expected_target_id": "AR-cassis-confiserie",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 5\n\n1. Fraise - confiserie (Fruits rouges)\n- Notes : Profil fruité, acidulé et rond.\n- Applications : confiserie\n- Sucrosité : 5\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 137.89 €/kg\n  Délai : 13 jours\n  Volume minimum : 15.00 kg\n\n2. Cassis - confiserie (Fruits rouges)\n- Notes : Profil fruité, acidulé et rond.\n- Applications : confiserie\n- Sucrosité : 5\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 88.71 €/kg\n  Délai : 10 jours\n  Volume minimum : 15.00 kg\n\n3. Framboise - confiserie (Fruits rouges)\n- Notes : Profil fruité, acidulé et rond.\n- Applications : confiserie\n- Sucrosité : 5\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 126.20 €/kg\n  Délai : 14 jours\n  Volume minimum : 5.00 kg",
+    "suggestions": [
+      "Fraise - confiserie",
+      "Cassis - confiserie",
+      "Framboise - confiserie"
+    ],
+    "source_ids": [
+      "AR-fraise-confiserie",
+      "AR-cassis-confiserie",
+      "AR-framboise-confiserie"
+    ],
+    "target_in_sources": true,
+    "source_count": 3,
+    "compliant_source_count": 3,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-fraise-confiserie",
+        "is_synthetic": true,
+        "text": "Arôme : Fraise - confiserie. Famille : Fruits rouges. Notes : Profil fruité, acidulé et rond.. Applications : confiserie. Sucrosité : 5. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 137.89 euros/kg. Délai : 13 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7902814149856567,
+        "nom": "Fraise - confiserie",
+        "famille": "Fruits rouges",
+        "notes": "Profil fruité, acidulé et rond.",
+        "applications": [
+          "confiserie"
+        ],
+        "sucrosite": 5,
+        "tenue_chaleur": "moyenne",
+        "prix": 137.89,
+        "delai": 13
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-cassis-confiserie",
+        "is_synthetic": true,
+        "text": "Arôme : Cassis - confiserie. Famille : Fruits rouges. Notes : Profil fruité, acidulé et rond.. Applications : confiserie. Sucrosité : 5. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 88.71 euros/kg. Délai : 10 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7865335941314697,
+        "nom": "Cassis - confiserie",
+        "famille": "Fruits rouges",
+        "notes": "Profil fruité, acidulé et rond.",
+        "applications": [
+          "confiserie"
+        ],
+        "sucrosite": 5,
+        "tenue_chaleur": "moyenne",
+        "prix": 88.71,
+        "delai": 10
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-framboise-confiserie",
+        "is_synthetic": true,
+        "text": "Arôme : Framboise - confiserie. Famille : Fruits rouges. Notes : Profil fruité, acidulé et rond.. Applications : confiserie. Sucrosité : 5. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 126.20 euros/kg. Délai : 14 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7842965126037598,
+        "nom": "Framboise - confiserie",
+        "famille": "Fruits rouges",
+        "notes": "Profil fruité, acidulé et rond.",
+        "applications": [
+          "confiserie"
+        ],
+        "sucrosite": 5,
+        "tenue_chaleur": "moyenne",
+        "prix": 126.2,
+        "delai": 14
+      }
+    ],
+    "latency_ms": 32432.66,
+    "expected_target_name_from_aromes_api": "Cassis - confiserie",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "RED-03",
+    "question": "Je cherche un arôme de fruits rouges pour un dessert, avec une sucrosité égale à 3.",
+    "expected_target_id": "AR-cassis-desserts",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 3\n\n1. Cassis - desserts (Fruits rouges)\n- Notes : Profil fruité, acidulé et rond.\n- Applications : desserts\n- Sucrosité : 3\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 102.94 €/kg\n  Délai : 12 jours\n  Volume minimum : 5.00 kg",
+    "suggestions": [
+      "Cassis - desserts"
+    ],
+    "source_ids": [
+      "AR-cassis-desserts"
+    ],
+    "target_in_sources": true,
+    "source_count": 1,
+    "compliant_source_count": 1,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-cassis-desserts",
+        "is_synthetic": true,
+        "text": "Arôme : Cassis - desserts. Famille : Fruits rouges. Notes : Profil fruité, acidulé et rond.. Applications : desserts. Sucrosité : 3. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 102.94 euros/kg. Délai : 12 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7920036911964417,
+        "nom": "Cassis - desserts",
+        "famille": "Fruits rouges",
+        "notes": "Profil fruité, acidulé et rond.",
+        "applications": [
+          "desserts"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "moyenne",
+        "prix": 102.94,
+        "delai": 12
+      }
+    ],
+    "latency_ms": 21615.83,
+    "expected_target_name_from_aromes_api": "Cassis - desserts",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "RED-04",
+    "question": "Je cherche un arôme de fruits rouges pour une pâtisserie, avec une sucrosité égale à 3.",
+    "expected_target_id": "AR-cassis-patisserie",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 3\n\n1. Mûre - pâtisserie (Fruits rouges)\n- Notes : Profil fruité, acidulé et rond.\n- Applications : pâtisserie\n- Sucrosité : 3\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 141.86 €/kg\n  Délai : 20 jours\n  Volume minimum : 5.00 kg\n\n2. Fraise - pâtisserie (Fruits rouges)\n- Notes : Profil fruité, acidulé et rond.\n- Applications : pâtisserie\n- Sucrosité : 3\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 106.73 €/kg\n  Délai : 19 jours\n  Volume minimum : 5.00 kg\n\n3. Cassis - pâtisserie (Fruits rouges)\n- Notes : Profil fruité, acidulé et rond.\n- Applications : pâtisserie\n- Sucrosité : 3\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 97.35 €/kg\n  Délai : 19 jours\n  Volume minimum : 5.00 kg",
+    "suggestions": [
+      "Mûre - pâtisserie",
+      "Fraise - pâtisserie",
+      "Cassis - pâtisserie"
+    ],
+    "source_ids": [
+      "AR-mure-patisserie",
+      "AR-fraise-patisserie",
+      "AR-cassis-patisserie"
+    ],
+    "target_in_sources": true,
+    "source_count": 3,
+    "compliant_source_count": 3,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-mure-patisserie",
+        "is_synthetic": true,
+        "text": "Arôme : Mûre - pâtisserie. Famille : Fruits rouges. Notes : Profil fruité, acidulé et rond.. Applications : pâtisserie. Sucrosité : 3. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 141.86 euros/kg. Délai : 20 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.8005119562149048,
+        "nom": "Mûre - pâtisserie",
+        "famille": "Fruits rouges",
+        "notes": "Profil fruité, acidulé et rond.",
+        "applications": [
+          "pâtisserie"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "moyenne",
+        "prix": 141.86,
+        "delai": 20
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-fraise-patisserie",
+        "is_synthetic": true,
+        "text": "Arôme : Fraise - pâtisserie. Famille : Fruits rouges. Notes : Profil fruité, acidulé et rond.. Applications : pâtisserie. Sucrosité : 3. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 106.73 euros/kg. Délai : 19 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.794430673122406,
+        "nom": "Fraise - pâtisserie",
+        "famille": "Fruits rouges",
+        "notes": "Profil fruité, acidulé et rond.",
+        "applications": [
+          "pâtisserie"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "moyenne",
+        "prix": 106.73,
+        "delai": 19
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-cassis-patisserie",
+        "is_synthetic": true,
+        "text": "Arôme : Cassis - pâtisserie. Famille : Fruits rouges. Notes : Profil fruité, acidulé et rond.. Applications : pâtisserie. Sucrosité : 3. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 97.35 euros/kg. Délai : 19 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7891238331794739,
+        "nom": "Cassis - pâtisserie",
+        "famille": "Fruits rouges",
+        "notes": "Profil fruité, acidulé et rond.",
+        "applications": [
+          "pâtisserie"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "moyenne",
+        "prix": 97.35,
+        "delai": 19
+      }
+    ],
+    "latency_ms": 30353.94,
+    "expected_target_name_from_aromes_api": "Cassis - pâtisserie",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "RED-05",
+    "question": "Je cherche un arôme de fruits rouges pour un yaourt, avec une sucrosité égale à 4.",
+    "expected_target_id": "AR-cassis-produits-laitiers",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 4\n\n1. Cerise - produits laitiers (Fruits rouges)\n- Notes : Profil fruité, acidulé et rond.\n- Applications : produits laitiers\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 66.07 €/kg\n  Délai : 17 jours\n  Volume minimum : 5.00 kg\n\n2. Fraise - produits laitiers (Fruits rouges)\n- Notes : Profil fruité, acidulé et rond.\n- Applications : produits laitiers\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 121.72 €/kg\n  Délai : 14 jours\n  Volume minimum : 15.00 kg\n\n3. Cassis - produits laitiers (Fruits rouges)\n- Notes : Profil fruité, acidulé et rond.\n- Applications : produits laitiers\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 106.01 €/kg\n  Délai : 12 jours\n  Volume minimum : 5.00 kg",
+    "suggestions": [
+      "Cerise - produits laitiers",
+      "Fraise - produits laitiers",
+      "Cassis - produits laitiers"
+    ],
+    "source_ids": [
+      "AR-cerise-produits-laitiers",
+      "AR-fraise-produits-laitiers",
+      "AR-cassis-produits-laitiers"
+    ],
+    "target_in_sources": true,
+    "source_count": 3,
+    "compliant_source_count": 3,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-cerise-produits-laitiers",
+        "is_synthetic": true,
+        "text": "Arôme : Cerise - produits laitiers. Famille : Fruits rouges. Notes : Profil fruité, acidulé et rond.. Applications : produits laitiers. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 66.07 euros/kg. Délai : 17 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7746111154556274,
+        "nom": "Cerise - produits laitiers",
+        "famille": "Fruits rouges",
+        "notes": "Profil fruité, acidulé et rond.",
+        "applications": [
+          "produits laitiers"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 66.07,
+        "delai": 17
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-fraise-produits-laitiers",
+        "is_synthetic": true,
+        "text": "Arôme : Fraise - produits laitiers. Famille : Fruits rouges. Notes : Profil fruité, acidulé et rond.. Applications : produits laitiers. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 121.72 euros/kg. Délai : 14 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7716217637062073,
+        "nom": "Fraise - produits laitiers",
+        "famille": "Fruits rouges",
+        "notes": "Profil fruité, acidulé et rond.",
+        "applications": [
+          "produits laitiers"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 121.72,
+        "delai": 14
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-cassis-produits-laitiers",
+        "is_synthetic": true,
+        "text": "Arôme : Cassis - produits laitiers. Famille : Fruits rouges. Notes : Profil fruité, acidulé et rond.. Applications : produits laitiers. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 106.01 euros/kg. Délai : 12 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7630431652069092,
+        "nom": "Cassis - produits laitiers",
+        "famille": "Fruits rouges",
+        "notes": "Profil fruité, acidulé et rond.",
+        "applications": [
+          "produits laitiers"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 106.01,
+        "delai": 12
+      }
+    ],
+    "latency_ms": 32973.26,
+    "expected_target_name_from_aromes_api": "Cassis - produits laitiers",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "TRO-01",
+    "question": "Je cherche un arôme exotique pour une boisson, avec une sucrosité égale à 4.",
+    "expected_target_id": "AR-ananas-boissons",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 4\n\n1. Grenade - boissons (Fruits tropicaux)\n- Notes : Profil fruité, exotique et mûr.\n- Applications : boissons\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 95.02 €/kg\n  Délai : 19 jours\n  Volume minimum : 5.00 kg\n\n2. Mangue - boissons (Fruits tropicaux)\n- Notes : Profil fruité, exotique et mûr.\n- Applications : boissons\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 95.09 €/kg\n  Délai : 13 jours\n  Volume minimum : 5.00 kg\n\n3. Ananas - boissons (Fruits tropicaux)\n- Notes : Profil fruité, exotique et mûr.\n- Applications : boissons\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 96.10 €/kg\n  Délai : 27 jours\n  Volume minimum : 15.00 kg\n\n4. Kiwi - boissons (Fruits tropicaux)\n- Notes : Profil fruité, exotique et mûr.\n- Applications : boissons\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 55.22 €/kg\n  Délai : 20 jours\n  Volume minimum : 15.00 kg",
+    "suggestions": [
+      "Grenade - boissons",
+      "Mangue - boissons",
+      "Ananas - boissons",
+      "Kiwi - boissons"
+    ],
+    "source_ids": [
+      "AR-grenade-boissons",
+      "AR-mangue-boissons",
+      "AR-ananas-boissons",
+      "AR-kiwi-boissons"
+    ],
+    "target_in_sources": true,
+    "source_count": 4,
+    "compliant_source_count": 4,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-grenade-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Grenade - boissons. Famille : Fruits tropicaux. Notes : Profil fruité, exotique et mûr.. Applications : boissons. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 95.02 euros/kg. Délai : 19 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7289327383041382,
+        "nom": "Grenade - boissons",
+        "famille": "Fruits tropicaux",
+        "notes": "Profil fruité, exotique et mûr.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 95.02,
+        "delai": 19
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-mangue-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Mangue - boissons. Famille : Fruits tropicaux. Notes : Profil fruité, exotique et mûr.. Applications : boissons. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 95.09 euros/kg. Délai : 13 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7248340845108032,
+        "nom": "Mangue - boissons",
+        "famille": "Fruits tropicaux",
+        "notes": "Profil fruité, exotique et mûr.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 95.09,
+        "delai": 13
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-ananas-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Ananas - boissons. Famille : Fruits tropicaux. Notes : Profil fruité, exotique et mûr.. Applications : boissons. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 96.10 euros/kg. Délai : 27 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7233092188835144,
+        "nom": "Ananas - boissons",
+        "famille": "Fruits tropicaux",
+        "notes": "Profil fruité, exotique et mûr.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 96.1,
+        "delai": 27
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-kiwi-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Kiwi - boissons. Famille : Fruits tropicaux. Notes : Profil fruité, exotique et mûr.. Applications : boissons. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 55.22 euros/kg. Délai : 20 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.6989583969116211,
+        "nom": "Kiwi - boissons",
+        "famille": "Fruits tropicaux",
+        "notes": "Profil fruité, exotique et mûr.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 55.22,
+        "delai": 20
+      }
+    ],
+    "latency_ms": 38095.07,
+    "expected_target_name_from_aromes_api": "Ananas - boissons",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "TRO-02",
+    "question": "Je cherche un arôme de fruits tropicaux pour une confiserie, avec une sucrosité égale à 5.",
+    "expected_target_id": "AR-ananas-confiserie",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 5\n\n1. Mangue - confiserie (Fruits tropicaux)\n- Notes : Profil fruité, exotique et mûr.\n- Applications : confiserie\n- Sucrosité : 5\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 101.56 €/kg\n  Délai : 25 jours\n  Volume minimum : 15.00 kg\n\n2. Fruit de la passion - confiserie (Fruits tropicaux)\n- Notes : Profil fruité, exotique et mûr.\n- Applications : confiserie\n- Sucrosité : 5\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 100.96 €/kg\n  Délai : 10 jours\n  Volume minimum : 5.00 kg\n\n3. Ananas - confiserie (Fruits tropicaux)\n- Notes : Profil fruité, exotique et mûr.\n- Applications : confiserie\n- Sucrosité : 5\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 110.17 €/kg\n  Délai : 18 jours\n  Volume minimum : 5.00 kg",
+    "suggestions": [
+      "Mangue - confiserie",
+      "Fruit de la passion - confiserie",
+      "Ananas - confiserie"
+    ],
+    "source_ids": [
+      "AR-mangue-confiserie",
+      "AR-fruit-de-la-passion-confiserie",
+      "AR-ananas-confiserie"
+    ],
+    "target_in_sources": true,
+    "source_count": 3,
+    "compliant_source_count": 3,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-mangue-confiserie",
+        "is_synthetic": true,
+        "text": "Arôme : Mangue - confiserie. Famille : Fruits tropicaux. Notes : Profil fruité, exotique et mûr.. Applications : confiserie. Sucrosité : 5. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 101.56 euros/kg. Délai : 25 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7992306351661682,
+        "nom": "Mangue - confiserie",
+        "famille": "Fruits tropicaux",
+        "notes": "Profil fruité, exotique et mûr.",
+        "applications": [
+          "confiserie"
+        ],
+        "sucrosite": 5,
+        "tenue_chaleur": "moyenne",
+        "prix": 101.56,
+        "delai": 25
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-fruit-de-la-passion-confiserie",
+        "is_synthetic": true,
+        "text": "Arôme : Fruit de la passion - confiserie. Famille : Fruits tropicaux. Notes : Profil fruité, exotique et mûr.. Applications : confiserie. Sucrosité : 5. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 100.96 euros/kg. Délai : 10 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.788780689239502,
+        "nom": "Fruit de la passion - confiserie",
+        "famille": "Fruits tropicaux",
+        "notes": "Profil fruité, exotique et mûr.",
+        "applications": [
+          "confiserie"
+        ],
+        "sucrosite": 5,
+        "tenue_chaleur": "moyenne",
+        "prix": 100.96,
+        "delai": 10
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-ananas-confiserie",
+        "is_synthetic": true,
+        "text": "Arôme : Ananas - confiserie. Famille : Fruits tropicaux. Notes : Profil fruité, exotique et mûr.. Applications : confiserie. Sucrosité : 5. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 110.17 euros/kg. Délai : 18 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7865322232246399,
+        "nom": "Ananas - confiserie",
+        "famille": "Fruits tropicaux",
+        "notes": "Profil fruité, exotique et mûr.",
+        "applications": [
+          "confiserie"
+        ],
+        "sucrosite": 5,
+        "tenue_chaleur": "moyenne",
+        "prix": 110.17,
+        "delai": 18
+      }
+    ],
+    "latency_ms": 30175.99,
+    "expected_target_name_from_aromes_api": "Ananas - confiserie",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "TRO-03",
+    "question": "Je cherche un arôme exotique pour un dessert, avec une sucrosité égale à 5.",
+    "expected_target_id": "AR-ananas-desserts",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 5\n\n1. Mangue - desserts (Fruits tropicaux)\n- Notes : Profil fruité, exotique et mûr.\n- Applications : desserts\n- Sucrosité : 5\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 69.83 €/kg\n  Délai : 27 jours\n  Volume minimum : 5.00 kg\n\n2. Ananas - desserts (Fruits tropicaux)\n- Notes : Profil fruité, exotique et mûr.\n- Applications : desserts\n- Sucrosité : 5\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 123.04 €/kg\n  Délai : 15 jours\n  Volume minimum : 5.00 kg",
+    "suggestions": [
+      "Mangue - desserts",
+      "Ananas - desserts"
+    ],
+    "source_ids": [
+      "AR-mangue-desserts",
+      "AR-ananas-desserts"
+    ],
+    "target_in_sources": true,
+    "source_count": 2,
+    "compliant_source_count": 2,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-mangue-desserts",
+        "is_synthetic": true,
+        "text": "Arôme : Mangue - desserts. Famille : Fruits tropicaux. Notes : Profil fruité, exotique et mûr.. Applications : desserts. Sucrosité : 5. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 69.83 euros/kg. Délai : 27 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7808178067207336,
+        "nom": "Mangue - desserts",
+        "famille": "Fruits tropicaux",
+        "notes": "Profil fruité, exotique et mûr.",
+        "applications": [
+          "desserts"
+        ],
+        "sucrosite": 5,
+        "tenue_chaleur": "moyenne",
+        "prix": 69.83,
+        "delai": 27
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-ananas-desserts",
+        "is_synthetic": true,
+        "text": "Arôme : Ananas - desserts. Famille : Fruits tropicaux. Notes : Profil fruité, exotique et mûr.. Applications : desserts. Sucrosité : 5. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 123.04 euros/kg. Délai : 15 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7664299011230469,
+        "nom": "Ananas - desserts",
+        "famille": "Fruits tropicaux",
+        "notes": "Profil fruité, exotique et mûr.",
+        "applications": [
+          "desserts"
+        ],
+        "sucrosite": 5,
+        "tenue_chaleur": "moyenne",
+        "prix": 123.04,
+        "delai": 15
+      }
+    ],
+    "latency_ms": 20712.77,
+    "expected_target_name_from_aromes_api": "Ananas - desserts",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "TRO-04",
+    "question": "Je cherche un arôme de fruits tropicaux pour une pâtisserie, avec une sucrosité égale à 3.",
+    "expected_target_id": "AR-ananas-patisserie",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 3\n\n1. Ananas - pâtisserie (Fruits tropicaux)\n- Notes : Profil fruité, exotique et mûr.\n- Applications : pâtisserie\n- Sucrosité : 3\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 114.51 €/kg\n  Délai : 25 jours\n  Volume minimum : 5.00 kg\n\n2. Kiwi - pâtisserie (Fruits tropicaux)\n- Notes : Profil fruité, exotique et mûr.\n- Applications : pâtisserie\n- Sucrosité : 3\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 104.74 €/kg\n  Délai : 26 jours\n  Volume minimum : 15.00 kg",
+    "suggestions": [
+      "Ananas - pâtisserie",
+      "Kiwi - pâtisserie"
+    ],
+    "source_ids": [
+      "AR-ananas-patisserie",
+      "AR-kiwi-patisserie"
+    ],
+    "target_in_sources": true,
+    "source_count": 2,
+    "compliant_source_count": 2,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-ananas-patisserie",
+        "is_synthetic": true,
+        "text": "Arôme : Ananas - pâtisserie. Famille : Fruits tropicaux. Notes : Profil fruité, exotique et mûr.. Applications : pâtisserie. Sucrosité : 3. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 114.51 euros/kg. Délai : 25 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7799959182739258,
+        "nom": "Ananas - pâtisserie",
+        "famille": "Fruits tropicaux",
+        "notes": "Profil fruité, exotique et mûr.",
+        "applications": [
+          "pâtisserie"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "moyenne",
+        "prix": 114.51,
+        "delai": 25
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-kiwi-patisserie",
+        "is_synthetic": true,
+        "text": "Arôme : Kiwi - pâtisserie. Famille : Fruits tropicaux. Notes : Profil fruité, exotique et mûr.. Applications : pâtisserie. Sucrosité : 3. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 104.74 euros/kg. Délai : 26 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7692289352416992,
+        "nom": "Kiwi - pâtisserie",
+        "famille": "Fruits tropicaux",
+        "notes": "Profil fruité, exotique et mûr.",
+        "applications": [
+          "pâtisserie"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "moyenne",
+        "prix": 104.74,
+        "delai": 26
+      }
+    ],
+    "latency_ms": 21335.98,
+    "expected_target_name_from_aromes_api": "Ananas - pâtisserie",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "TRO-05",
+    "question": "Je cherche un arôme de fruit exotique pour un yaourt, avec une sucrosité égale à 3.",
+    "expected_target_id": "AR-ananas-produits-laitiers",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 3\n\n1. Ananas - produits laitiers (Fruits tropicaux)\n- Notes : Profil fruité, exotique et mûr.\n- Applications : produits laitiers\n- Sucrosité : 3\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 110.30 €/kg\n  Délai : 20 jours\n  Volume minimum : 15.00 kg",
+    "suggestions": [
+      "Ananas - produits laitiers"
+    ],
+    "source_ids": [
+      "AR-ananas-produits-laitiers"
+    ],
+    "target_in_sources": true,
+    "source_count": 1,
+    "compliant_source_count": 1,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-ananas-produits-laitiers",
+        "is_synthetic": true,
+        "text": "Arôme : Ananas - produits laitiers. Famille : Fruits tropicaux. Notes : Profil fruité, exotique et mûr.. Applications : produits laitiers. Sucrosité : 3. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 110.30 euros/kg. Délai : 20 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7469779253005981,
+        "nom": "Ananas - produits laitiers",
+        "famille": "Fruits tropicaux",
+        "notes": "Profil fruité, exotique et mûr.",
+        "applications": [
+          "produits laitiers"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "moyenne",
+        "prix": 110.3,
+        "delai": 20
+      }
+    ],
+    "latency_ms": 14072.71,
+    "expected_target_name_from_aromes_api": "Ananas - produits laitiers",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "HER-01",
+    "question": "Je cherche un arôme d'herbes et épices pour un assaisonnement, avec une sucrosité égale à 3, adapté à la pasteurisation.",
+    "expected_target_id": "AR-basilic-assaisonnements",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 3\n\nTenue à la chaleur exigée : élevée.\n\n1. Coriandre - assaisonnements (Herbes et épices)\n- Notes : Profil aromatique végétal, épicé ou herbacé.\n- Applications : assaisonnements\n- Sucrosité : 3\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 69.80 €/kg\n  Délai : 29 jours\n  Volume minimum : 5.00 kg\n\n2. Basilic - assaisonnements (Herbes et épices)\n- Notes : Profil aromatique végétal, épicé ou herbacé.\n- Applications : assaisonnements\n- Sucrosité : 3\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 131.31 €/kg\n  Délai : 23 jours\n  Volume minimum : 5.00 kg",
+    "suggestions": [
+      "Coriandre - assaisonnements",
+      "Basilic - assaisonnements"
+    ],
+    "source_ids": [
+      "AR-coriandre-assaisonnements",
+      "AR-basilic-assaisonnements"
+    ],
+    "target_in_sources": true,
+    "source_count": 2,
+    "compliant_source_count": 2,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-coriandre-assaisonnements",
+        "is_synthetic": true,
+        "text": "Arôme : Coriandre - assaisonnements. Famille : Herbes et épices. Notes : Profil aromatique végétal, épicé ou herbacé.. Applications : assaisonnements. Sucrosité : 3. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 69.80 euros/kg. Délai : 29 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.8015803098678589,
+        "nom": "Coriandre - assaisonnements",
+        "famille": "Herbes et épices",
+        "notes": "Profil aromatique végétal, épicé ou herbacé.",
+        "applications": [
+          "assaisonnements"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "élevée",
+        "prix": 69.8,
+        "delai": 29
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-basilic-assaisonnements",
+        "is_synthetic": true,
+        "text": "Arôme : Basilic - assaisonnements. Famille : Herbes et épices. Notes : Profil aromatique végétal, épicé ou herbacé.. Applications : assaisonnements. Sucrosité : 3. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 131.31 euros/kg. Délai : 23 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.800580620765686,
+        "nom": "Basilic - assaisonnements",
+        "famille": "Herbes et épices",
+        "notes": "Profil aromatique végétal, épicé ou herbacé.",
+        "applications": [
+          "assaisonnements"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "élevée",
+        "prix": 131.31,
+        "delai": 23
+      }
+    ],
+    "latency_ms": 21278.06,
+    "expected_target_name_from_aromes_api": "Basilic - assaisonnements",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "HER-02",
+    "question": "Je cherche un arôme d'herbes et épices pour une boisson, avec une sucrosité égale à 3, adapté à la cuisson.",
+    "expected_target_id": "AR-basilic-boissons",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 3\n\nTenue à la chaleur exigée : élevée.\n\n1. Cannelle - boissons (Herbes et épices)\n- Notes : Profil aromatique végétal, épicé ou herbacé.\n- Applications : boissons\n- Sucrosité : 3\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 139.22 €/kg\n  Délai : 10 jours\n  Volume minimum : 20.00 kg\n\n2. Persil - boissons (Herbes et épices)\n- Notes : Profil aromatique végétal, épicé ou herbacé.\n- Applications : boissons\n- Sucrosité : 3\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 65.04 €/kg\n  Délai : 24 jours\n  Volume minimum : 5.00 kg\n\n3. Basilic - boissons (Herbes et épices)\n- Notes : Profil aromatique végétal, épicé ou herbacé.\n- Applications : boissons\n- Sucrosité : 3\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 56.82 €/kg\n  Délai : 19 jours\n  Volume minimum : 5.00 kg",
+    "suggestions": [
+      "Cannelle - boissons",
+      "Persil - boissons",
+      "Basilic - boissons"
+    ],
+    "source_ids": [
+      "AR-cannelle-boissons",
+      "AR-persil-boissons",
+      "AR-basilic-boissons"
+    ],
+    "target_in_sources": true,
+    "source_count": 3,
+    "compliant_source_count": 3,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-cannelle-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Cannelle - boissons. Famille : Herbes et épices. Notes : Profil aromatique végétal, épicé ou herbacé.. Applications : boissons. Sucrosité : 3. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 139.22 euros/kg. Délai : 10 jours. Volume minimum : 20.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.8102124333381653,
+        "nom": "Cannelle - boissons",
+        "famille": "Herbes et épices",
+        "notes": "Profil aromatique végétal, épicé ou herbacé.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "élevée",
+        "prix": 139.22,
+        "delai": 10
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-persil-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Persil - boissons. Famille : Herbes et épices. Notes : Profil aromatique végétal, épicé ou herbacé.. Applications : boissons. Sucrosité : 3. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 65.04 euros/kg. Délai : 24 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.8094367980957031,
+        "nom": "Persil - boissons",
+        "famille": "Herbes et épices",
+        "notes": "Profil aromatique végétal, épicé ou herbacé.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "élevée",
+        "prix": 65.04,
+        "delai": 24
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-basilic-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Basilic - boissons. Famille : Herbes et épices. Notes : Profil aromatique végétal, épicé ou herbacé.. Applications : boissons. Sucrosité : 3. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 56.82 euros/kg. Délai : 19 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.8038123846054077,
+        "nom": "Basilic - boissons",
+        "famille": "Herbes et épices",
+        "notes": "Profil aromatique végétal, épicé ou herbacé.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 3,
+        "tenue_chaleur": "élevée",
+        "prix": 56.82,
+        "delai": 19
+      }
+    ],
+    "latency_ms": 28330.68,
+    "expected_target_name_from_aromes_api": "Basilic - boissons",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "HER-03",
+    "question": "Je cherche un arôme de basilic de la famille herbes et épices pour un plat préparé, avec une sucrosité égale à 1, adapté à la cuisson.",
+    "expected_target_id": "AR-basilic-plats-prepares",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 1\n\nTenue à la chaleur exigée : élevée.\n\n1. Basilic - plats préparés (Herbes et épices)\n- Notes : Profil aromatique végétal, épicé ou herbacé.\n- Applications : plats préparés\n- Sucrosité : 1\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 148.16 €/kg\n  Délai : 17 jours\n  Volume minimum : 20.00 kg",
+    "suggestions": [
+      "Basilic - plats préparés"
+    ],
+    "source_ids": [
+      "AR-basilic-plats-prepares"
+    ],
+    "target_in_sources": true,
+    "source_count": 1,
+    "compliant_source_count": 1,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-basilic-plats-prepares",
+        "is_synthetic": true,
+        "text": "Arôme : Basilic - plats préparés. Famille : Herbes et épices. Notes : Profil aromatique végétal, épicé ou herbacé.. Applications : plats préparés. Sucrosité : 1. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 148.16 euros/kg. Délai : 17 jours. Volume minimum : 20.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.8209450244903564,
+        "nom": "Basilic - plats préparés",
+        "famille": "Herbes et épices",
+        "notes": "Profil aromatique végétal, épicé ou herbacé.",
+        "applications": [
+          "plats préparés"
+        ],
+        "sucrosite": 1,
+        "tenue_chaleur": "élevée",
+        "prix": 148.16,
+        "delai": 17
+      }
+    ],
+    "latency_ms": 14118.48,
+    "expected_target_name_from_aromes_api": "Basilic - plats préparés",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "HER-04",
+    "question": "Je cherche un arôme d'épices pour une sauce, avec une sucrosité égale à 2, adapté à la cuisson.",
+    "expected_target_id": "AR-basilic-sauces",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 2\n\nTenue à la chaleur exigée : élevée.\n\n1. Gingembre - sauces (Herbes et épices)\n- Notes : Profil aromatique végétal, épicé ou herbacé.\n- Applications : sauces\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 98.24 €/kg\n  Délai : 23 jours\n  Volume minimum : 5.00 kg\n\n2. Menthe - sauces (Herbes et épices)\n- Notes : Profil aromatique végétal, épicé ou herbacé.\n- Applications : sauces\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 144.07 €/kg\n  Délai : 25 jours\n  Volume minimum : 20.00 kg\n\n3. Basilic - sauces (Herbes et épices)\n- Notes : Profil aromatique végétal, épicé ou herbacé.\n- Applications : sauces\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 125.14 €/kg\n  Délai : 30 jours\n  Volume minimum : 20.00 kg",
+    "suggestions": [
+      "Gingembre - sauces",
+      "Menthe - sauces",
+      "Basilic - sauces"
+    ],
+    "source_ids": [
+      "AR-gingembre-sauces",
+      "AR-menthe-sauces",
+      "AR-basilic-sauces"
+    ],
+    "target_in_sources": true,
+    "source_count": 3,
+    "compliant_source_count": 3,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-gingembre-sauces",
+        "is_synthetic": true,
+        "text": "Arôme : Gingembre - sauces. Famille : Herbes et épices. Notes : Profil aromatique végétal, épicé ou herbacé.. Applications : sauces. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 98.24 euros/kg. Délai : 23 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7800967693328857,
+        "nom": "Gingembre - sauces",
+        "famille": "Herbes et épices",
+        "notes": "Profil aromatique végétal, épicé ou herbacé.",
+        "applications": [
+          "sauces"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 98.24,
+        "delai": 23
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-menthe-sauces",
+        "is_synthetic": true,
+        "text": "Arôme : Menthe - sauces. Famille : Herbes et épices. Notes : Profil aromatique végétal, épicé ou herbacé.. Applications : sauces. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 144.07 euros/kg. Délai : 25 jours. Volume minimum : 20.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7763397693634033,
+        "nom": "Menthe - sauces",
+        "famille": "Herbes et épices",
+        "notes": "Profil aromatique végétal, épicé ou herbacé.",
+        "applications": [
+          "sauces"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 144.07,
+        "delai": 25
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-basilic-sauces",
+        "is_synthetic": true,
+        "text": "Arôme : Basilic - sauces. Famille : Herbes et épices. Notes : Profil aromatique végétal, épicé ou herbacé.. Applications : sauces. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 125.14 euros/kg. Délai : 30 jours. Volume minimum : 20.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7683840394020081,
+        "nom": "Basilic - sauces",
+        "famille": "Herbes et épices",
+        "notes": "Profil aromatique végétal, épicé ou herbacé.",
+        "applications": [
+          "sauces"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 125.14,
+        "delai": 30
+      }
+    ],
+    "latency_ms": 29414.9,
+    "expected_target_name_from_aromes_api": "Basilic - sauces",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "HER-05",
+    "question": "Je cherche un arôme de gingembre pour un snack, avec une sucrosité égale à 2, adapté à la cuisson.",
+    "expected_target_id": "AR-gingembre-snacks",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 2\n\nTenue à la chaleur exigée : élevée.\n\n1. Gingembre - snacks (Herbes et épices)\n- Notes : Profil aromatique végétal, épicé ou herbacé.\n- Applications : snacks\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 76.69 €/kg\n  Délai : 22 jours\n  Volume minimum : 20.00 kg\n\n2. Cannelle - snacks (Herbes et épices)\n- Notes : Profil aromatique végétal, épicé ou herbacé.\n- Applications : snacks\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 88.59 €/kg\n  Délai : 22 jours\n  Volume minimum : 20.00 kg\n\n3. Menthe - snacks (Herbes et épices)\n- Notes : Profil aromatique végétal, épicé ou herbacé.\n- Applications : snacks\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 69.13 €/kg\n  Délai : 16 jours\n  Volume minimum : 5.00 kg\n\n4. Coriandre - snacks (Herbes et épices)\n- Notes : Profil aromatique végétal, épicé ou herbacé.\n- Applications : snacks\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 140.28 €/kg\n  Délai : 21 jours\n  Volume minimum : 20.00 kg",
+    "suggestions": [
+      "Gingembre - snacks",
+      "Cannelle - snacks",
+      "Menthe - snacks",
+      "Coriandre - snacks"
+    ],
+    "source_ids": [
+      "AR-gingembre-snacks",
+      "AR-cannelle-snacks",
+      "AR-menthe-snacks",
+      "AR-coriandre-snacks"
+    ],
+    "target_in_sources": true,
+    "source_count": 4,
+    "compliant_source_count": 4,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-gingembre-snacks",
+        "is_synthetic": true,
+        "text": "Arôme : Gingembre - snacks. Famille : Herbes et épices. Notes : Profil aromatique végétal, épicé ou herbacé.. Applications : snacks. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 76.69 euros/kg. Délai : 22 jours. Volume minimum : 20.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7898610234260559,
+        "nom": "Gingembre - snacks",
+        "famille": "Herbes et épices",
+        "notes": "Profil aromatique végétal, épicé ou herbacé.",
+        "applications": [
+          "snacks"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 76.69,
+        "delai": 22
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-cannelle-snacks",
+        "is_synthetic": true,
+        "text": "Arôme : Cannelle - snacks. Famille : Herbes et épices. Notes : Profil aromatique végétal, épicé ou herbacé.. Applications : snacks. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 88.59 euros/kg. Délai : 22 jours. Volume minimum : 20.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7732842564582825,
+        "nom": "Cannelle - snacks",
+        "famille": "Herbes et épices",
+        "notes": "Profil aromatique végétal, épicé ou herbacé.",
+        "applications": [
+          "snacks"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 88.59,
+        "delai": 22
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-menthe-snacks",
+        "is_synthetic": true,
+        "text": "Arôme : Menthe - snacks. Famille : Herbes et épices. Notes : Profil aromatique végétal, épicé ou herbacé.. Applications : snacks. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 69.13 euros/kg. Délai : 16 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7598457336425781,
+        "nom": "Menthe - snacks",
+        "famille": "Herbes et épices",
+        "notes": "Profil aromatique végétal, épicé ou herbacé.",
+        "applications": [
+          "snacks"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 69.13,
+        "delai": 16
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-coriandre-snacks",
+        "is_synthetic": true,
+        "text": "Arôme : Coriandre - snacks. Famille : Herbes et épices. Notes : Profil aromatique végétal, épicé ou herbacé.. Applications : snacks. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 140.28 euros/kg. Délai : 21 jours. Volume minimum : 20.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7588186264038086,
+        "nom": "Coriandre - snacks",
+        "famille": "Herbes et épices",
+        "notes": "Profil aromatique végétal, épicé ou herbacé.",
+        "applications": [
+          "snacks"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 140.28,
+        "delai": 21
+      }
+    ],
+    "latency_ms": 36188.83,
+    "expected_target_name_from_aromes_api": "Gingembre - snacks",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "GOU-01",
+    "question": "Je cherche un arôme gourmand de vanille pour des biscuits, avec une sucrosité égale à 4.",
+    "expected_target_id": "AR-biscuit-biscuits",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 4\n\n1. Note lactée - biscuits (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : biscuits\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 86.91 €/kg\n  Délai : 15 jours\n  Volume minimum : 5.00 kg\n\n2. Caramel - biscuits (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : biscuits\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 48.56 €/kg\n  Délai : 12 jours\n  Volume minimum : 5.00 kg\n\n3. Cacao - biscuits (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : biscuits\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 91.88 €/kg\n  Délai : 21 jours\n  Volume minimum : 15.00 kg",
+    "suggestions": [
+      "Note lactée - biscuits",
+      "Caramel - biscuits",
+      "Cacao - biscuits"
+    ],
+    "source_ids": [
+      "AR-note-lactee-biscuits",
+      "AR-caramel-biscuits",
+      "AR-cacao-biscuits"
+    ],
+    "target_in_sources": false,
+    "source_count": 3,
+    "compliant_source_count": 3,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-note-lactee-biscuits",
+        "is_synthetic": true,
+        "text": "Arôme : Note lactée - biscuits. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : biscuits. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 86.91 euros/kg. Délai : 15 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7858111262321472,
+        "nom": "Note lactée - biscuits",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "biscuits"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 86.91,
+        "delai": 15
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-caramel-biscuits",
+        "is_synthetic": true,
+        "text": "Arôme : Caramel - biscuits. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : biscuits. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 48.56 euros/kg. Délai : 12 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7797048687934875,
+        "nom": "Caramel - biscuits",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "biscuits"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 48.56,
+        "delai": 12
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-cacao-biscuits",
+        "is_synthetic": true,
+        "text": "Arôme : Cacao - biscuits. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : biscuits. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 91.88 euros/kg. Délai : 21 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7737367153167725,
+        "nom": "Cacao - biscuits",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "biscuits"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 91.88,
+        "delai": 21
+      }
+    ],
+    "latency_ms": 35313.33,
+    "expected_target_name_from_aromes_api": "Biscuit - biscuits",
+    "target_name_mentioned_in_answer": false
+  },
+  {
+    "case_id": "GOU-02",
+    "question": "Je cherche un arôme gourmand de vanille pour une boisson, avec une sucrosité égale à 4.",
+    "expected_target_id": "AR-biscuit-boissons",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 4\n\n1. Biscuit - boissons (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : boissons\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 69.29 €/kg\n  Délai : 22 jours\n  Volume minimum : 15.00 kg\n\n2. Café - boissons (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : boissons\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 41.24 €/kg\n  Délai : 14 jours\n  Volume minimum : 15.00 kg\n\n3. Note lactée - boissons (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : boissons\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 87.12 €/kg\n  Délai : 17 jours\n  Volume minimum : 15.00 kg",
+    "suggestions": [
+      "Biscuit - boissons",
+      "Café - boissons",
+      "Note lactée - boissons"
+    ],
+    "source_ids": [
+      "AR-biscuit-boissons",
+      "AR-cafe-boissons",
+      "AR-note-lactee-boissons"
+    ],
+    "target_in_sources": true,
+    "source_count": 3,
+    "compliant_source_count": 3,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-biscuit-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Biscuit - boissons. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : boissons. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 69.29 euros/kg. Délai : 22 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7586909532546997,
+        "nom": "Biscuit - boissons",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 69.29,
+        "delai": 22
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-cafe-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Café - boissons. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : boissons. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 41.24 euros/kg. Délai : 14 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7583374977111816,
+        "nom": "Café - boissons",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 41.24,
+        "delai": 14
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-note-lactee-boissons",
+        "is_synthetic": true,
+        "text": "Arôme : Note lactée - boissons. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : boissons. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 87.12 euros/kg. Délai : 17 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.756892740726471,
+        "nom": "Note lactée - boissons",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "boissons"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 87.12,
+        "delai": 17
+      }
+    ],
+    "latency_ms": 41298.65,
+    "expected_target_name_from_aromes_api": "Biscuit - boissons",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "GOU-03",
+    "question": "Je cherche un arôme gourmand de vanille pour un produit chocolat, avec une sucrosité égale à 5.",
+    "expected_target_id": "AR-biscuit-chocolat",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 5\n\n1. Vanille - chocolat (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : chocolat\n- Sucrosité : 5\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 114.09 €/kg\n  Délai : 23 jours\n  Volume minimum : 15.00 kg\n\n2. Biscuit - chocolat (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : chocolat\n- Sucrosité : 5\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 120.22 €/kg\n  Délai : 28 jours\n  Volume minimum : 5.00 kg\n\n3. Café - chocolat (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : chocolat\n- Sucrosité : 5\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 59.80 €/kg\n  Délai : 28 jours\n  Volume minimum : 15.00 kg",
+    "suggestions": [
+      "Vanille - chocolat",
+      "Biscuit - chocolat",
+      "Café - chocolat"
+    ],
+    "source_ids": [
+      "AR-vanille-chocolat",
+      "AR-biscuit-chocolat",
+      "AR-cafe-chocolat"
+    ],
+    "target_in_sources": true,
+    "source_count": 3,
+    "compliant_source_count": 3,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-vanille-chocolat",
+        "is_synthetic": true,
+        "text": "Arôme : Vanille - chocolat. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : chocolat. Sucrosité : 5. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 114.09 euros/kg. Délai : 23 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.8211499452590942,
+        "nom": "Vanille - chocolat",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "chocolat"
+        ],
+        "sucrosite": 5,
+        "tenue_chaleur": "moyenne",
+        "prix": 114.09,
+        "delai": 23
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-biscuit-chocolat",
+        "is_synthetic": true,
+        "text": "Arôme : Biscuit - chocolat. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : chocolat. Sucrosité : 5. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 120.22 euros/kg. Délai : 28 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7871931791305542,
+        "nom": "Biscuit - chocolat",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "chocolat"
+        ],
+        "sucrosite": 5,
+        "tenue_chaleur": "moyenne",
+        "prix": 120.22,
+        "delai": 28
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-cafe-chocolat",
+        "is_synthetic": true,
+        "text": "Arôme : Café - chocolat. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : chocolat. Sucrosité : 5. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 59.80 euros/kg. Délai : 28 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7841194868087769,
+        "nom": "Café - chocolat",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "chocolat"
+        ],
+        "sucrosite": 5,
+        "tenue_chaleur": "moyenne",
+        "prix": 59.8,
+        "delai": 28
+      }
+    ],
+    "latency_ms": 33059.61,
+    "expected_target_name_from_aromes_api": "Biscuit - chocolat",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "GOU-04",
+    "question": "Je cherche un arôme gourmand de caramel pour un dessert, avec une sucrosité égale à 4.",
+    "expected_target_id": "AR-biscuit-desserts",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 4\n\n1. Chocolat - desserts (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : desserts\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 66.61 €/kg\n  Délai : 29 jours\n  Volume minimum : 15.00 kg\n\n2. Café - desserts (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : desserts\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 53.46 €/kg\n  Délai : 14 jours\n  Volume minimum : 15.00 kg\n\n3. Biscuit - desserts (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : desserts\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 102.00 €/kg\n  Délai : 19 jours\n  Volume minimum : 15.00 kg\n\n4. Cacao - desserts (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : desserts\n- Sucrosité : 4\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 81.51 €/kg\n  Délai : 27 jours\n  Volume minimum : 15.00 kg",
+    "suggestions": [
+      "Chocolat - desserts",
+      "Café - desserts",
+      "Biscuit - desserts",
+      "Cacao - desserts"
+    ],
+    "source_ids": [
+      "AR-chocolat-desserts",
+      "AR-cafe-desserts",
+      "AR-biscuit-desserts",
+      "AR-cacao-desserts"
+    ],
+    "target_in_sources": true,
+    "source_count": 4,
+    "compliant_source_count": 4,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-chocolat-desserts",
+        "is_synthetic": true,
+        "text": "Arôme : Chocolat - desserts. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : desserts. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 66.61 euros/kg. Délai : 29 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.799754798412323,
+        "nom": "Chocolat - desserts",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "desserts"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 66.61,
+        "delai": 29
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-cafe-desserts",
+        "is_synthetic": true,
+        "text": "Arôme : Café - desserts. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : desserts. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 53.46 euros/kg. Délai : 14 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7868807911872864,
+        "nom": "Café - desserts",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "desserts"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 53.46,
+        "delai": 14
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-biscuit-desserts",
+        "is_synthetic": true,
+        "text": "Arôme : Biscuit - desserts. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : desserts. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 102.00 euros/kg. Délai : 19 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7816858887672424,
+        "nom": "Biscuit - desserts",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "desserts"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 102.0,
+        "delai": 19
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-cacao-desserts",
+        "is_synthetic": true,
+        "text": "Arôme : Cacao - desserts. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : desserts. Sucrosité : 4. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 81.51 euros/kg. Délai : 27 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7805637121200562,
+        "nom": "Cacao - desserts",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "desserts"
+        ],
+        "sucrosite": 4,
+        "tenue_chaleur": "moyenne",
+        "prix": 81.51,
+        "delai": 27
+      }
+    ],
+    "latency_ms": 44079.12,
+    "expected_target_name_from_aromes_api": "Biscuit - desserts",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "GOU-05",
+    "question": "Je cherche un arôme gourmand de chocolat pour une glace, avec une sucrosité égale à 5.",
+    "expected_target_id": "AR-biscuit-glaces",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 5\n\n1. Chocolat - glaces (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : glaces\n- Sucrosité : 5\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 98.68 €/kg\n  Délai : 18 jours\n  Volume minimum : 15.00 kg\n\n2. Biscuit - glaces (Notes gourmandes)\n- Notes : Profil gourmand, rond et chaleureux.\n- Applications : glaces\n- Sucrosité : 5\n  Tenue à la chaleur : moyenne\n  Certifications : non renseigné\n  Prix indicatif : 88.37 €/kg\n  Délai : 12 jours\n  Volume minimum : 5.00 kg",
+    "suggestions": [
+      "Chocolat - glaces",
+      "Biscuit - glaces"
+    ],
+    "source_ids": [
+      "AR-chocolat-glaces",
+      "AR-biscuit-glaces"
+    ],
+    "target_in_sources": true,
+    "source_count": 2,
+    "compliant_source_count": 2,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-chocolat-glaces",
+        "is_synthetic": true,
+        "text": "Arôme : Chocolat - glaces. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : glaces. Sucrosité : 5. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 98.68 euros/kg. Délai : 18 jours. Volume minimum : 15.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.8152434825897217,
+        "nom": "Chocolat - glaces",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "glaces"
+        ],
+        "sucrosite": 5,
+        "tenue_chaleur": "moyenne",
+        "prix": 98.68,
+        "delai": 18
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-biscuit-glaces",
+        "is_synthetic": true,
+        "text": "Arôme : Biscuit - glaces. Famille : Notes gourmandes. Notes : Profil gourmand, rond et chaleureux.. Applications : glaces. Sucrosité : 5. Tenue à la chaleur : moyenne. Certifications : non renseigné. Prix indicatif : 88.37 euros/kg. Délai : 12 jours. Volume minimum : 5.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7815718650817871,
+        "nom": "Biscuit - glaces",
+        "famille": "Notes gourmandes",
+        "notes": "Profil gourmand, rond et chaleureux.",
+        "applications": [
+          "glaces"
+        ],
+        "sucrosite": 5,
+        "tenue_chaleur": "moyenne",
+        "prix": 88.37,
+        "delai": 12
+      }
+    ],
+    "latency_ms": 26943.25,
+    "expected_target_name_from_aromes_api": "Biscuit - glaces",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "SAL-01",
+    "question": "Je cherche un arôme salé umami pour un assaisonnement, avec une sucrosité égale à 1, adapté à la cuisson.",
+    "expected_target_id": "AR-ail-roti-assaisonnements",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 1\n\nTenue à la chaleur exigée : élevée.\n\n1. Oignon - assaisonnements (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : assaisonnements\n- Sucrosité : 1\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 125.21 €/kg\n  Délai : 27 jours\n  Volume minimum : 25.00 kg\n\n2. Ail rôti - assaisonnements (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : assaisonnements\n- Sucrosité : 1\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 60.86 €/kg\n  Délai : 22 jours\n  Volume minimum : 10.00 kg\n\n3. Tomate grillée - assaisonnements (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : assaisonnements\n- Sucrosité : 1\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 130.73 €/kg\n  Délai : 30 jours\n  Volume minimum : 25.00 kg\n\n4. Poivron - assaisonnements (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : assaisonnements\n- Sucrosité : 1\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 141.18 €/kg\n  Délai : 20 jours\n  Volume minimum : 25.00 kg",
+    "suggestions": [
+      "Oignon - assaisonnements",
+      "Ail rôti - assaisonnements",
+      "Tomate grillée - assaisonnements",
+      "Poivron - assaisonnements"
+    ],
+    "source_ids": [
+      "AR-oignon-assaisonnements",
+      "AR-ail-roti-assaisonnements",
+      "AR-tomate-grillee-assaisonnements",
+      "AR-poivron-assaisonnements"
+    ],
+    "target_in_sources": true,
+    "source_count": 4,
+    "compliant_source_count": 4,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-oignon-assaisonnements",
+        "is_synthetic": true,
+        "text": "Arôme : Oignon - assaisonnements. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : assaisonnements. Sucrosité : 1. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 125.21 euros/kg. Délai : 27 jours. Volume minimum : 25.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7351125478744507,
+        "nom": "Oignon - assaisonnements",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "assaisonnements"
+        ],
+        "sucrosite": 1,
+        "tenue_chaleur": "élevée",
+        "prix": 125.21,
+        "delai": 27
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-ail-roti-assaisonnements",
+        "is_synthetic": true,
+        "text": "Arôme : Ail rôti - assaisonnements. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : assaisonnements. Sucrosité : 1. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 60.86 euros/kg. Délai : 22 jours. Volume minimum : 10.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7339007258415222,
+        "nom": "Ail rôti - assaisonnements",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "assaisonnements"
+        ],
+        "sucrosite": 1,
+        "tenue_chaleur": "élevée",
+        "prix": 60.86,
+        "delai": 22
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-tomate-grillee-assaisonnements",
+        "is_synthetic": true,
+        "text": "Arôme : Tomate grillée - assaisonnements. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : assaisonnements. Sucrosité : 1. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 130.73 euros/kg. Délai : 30 jours. Volume minimum : 25.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7276660799980164,
+        "nom": "Tomate grillée - assaisonnements",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "assaisonnements"
+        ],
+        "sucrosite": 1,
+        "tenue_chaleur": "élevée",
+        "prix": 130.73,
+        "delai": 30
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-poivron-assaisonnements",
+        "is_synthetic": true,
+        "text": "Arôme : Poivron - assaisonnements. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : assaisonnements. Sucrosité : 1. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 141.18 euros/kg. Délai : 20 jours. Volume minimum : 25.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7181388139724731,
+        "nom": "Poivron - assaisonnements",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "assaisonnements"
+        ],
+        "sucrosite": 1,
+        "tenue_chaleur": "élevée",
+        "prix": 141.18,
+        "delai": 20
+      }
+    ],
+    "latency_ms": 49451.79,
+    "expected_target_name_from_aromes_api": "Ail rôti - assaisonnements",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "SAL-02",
+    "question": "Je cherche un arôme de notes salées pour un plat préparé, avec une sucrosité égale à 2, adapté à la cuisson.",
+    "expected_target_id": "AR-ail-roti-plats-prepares",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 2\n\nTenue à la chaleur exigée : élevée.\n\n1. Ail rôti - plats préparés (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : plats préparés\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 78.03 €/kg\n  Délai : 11 jours\n  Volume minimum : 25.00 kg\n\n2. Oignon - plats préparés (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : plats préparés\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 92.87 €/kg\n  Délai : 10 jours\n  Volume minimum : 10.00 kg\n\n3. Tomate grillée - plats préparés (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : plats préparés\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 148.46 €/kg\n  Délai : 28 jours\n  Volume minimum : 10.00 kg\n\n4. Légumes grillés - plats préparés (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : plats préparés\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 98.77 €/kg\n  Délai : 24 jours\n  Volume minimum : 25.00 kg",
+    "suggestions": [
+      "Ail rôti - plats préparés",
+      "Oignon - plats préparés",
+      "Tomate grillée - plats préparés",
+      "Légumes grillés - plats préparés"
+    ],
+    "source_ids": [
+      "AR-ail-roti-plats-prepares",
+      "AR-oignon-plats-prepares",
+      "AR-tomate-grillee-plats-prepares",
+      "AR-legumes-grilles-plats-prepares"
+    ],
+    "target_in_sources": true,
+    "source_count": 4,
+    "compliant_source_count": 4,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-ail-roti-plats-prepares",
+        "is_synthetic": true,
+        "text": "Arôme : Ail rôti - plats préparés. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : plats préparés. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 78.03 euros/kg. Délai : 11 jours. Volume minimum : 25.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.756659209728241,
+        "nom": "Ail rôti - plats préparés",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "plats préparés"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 78.03,
+        "delai": 11
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-oignon-plats-prepares",
+        "is_synthetic": true,
+        "text": "Arôme : Oignon - plats préparés. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : plats préparés. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 92.87 euros/kg. Délai : 10 jours. Volume minimum : 10.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7483638525009155,
+        "nom": "Oignon - plats préparés",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "plats préparés"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 92.87,
+        "delai": 10
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-tomate-grillee-plats-prepares",
+        "is_synthetic": true,
+        "text": "Arôme : Tomate grillée - plats préparés. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : plats préparés. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 148.46 euros/kg. Délai : 28 jours. Volume minimum : 10.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7471583485603333,
+        "nom": "Tomate grillée - plats préparés",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "plats préparés"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 148.46,
+        "delai": 28
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-legumes-grilles-plats-prepares",
+        "is_synthetic": true,
+        "text": "Arôme : Légumes grillés - plats préparés. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : plats préparés. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 98.77 euros/kg. Délai : 24 jours. Volume minimum : 25.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7297831177711487,
+        "nom": "Légumes grillés - plats préparés",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "plats préparés"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 98.77,
+        "delai": 24
+      }
+    ],
+    "latency_ms": 43090.78,
+    "expected_target_name_from_aromes_api": "Ail rôti - plats préparés",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "SAL-03",
+    "question": "Je cherche un arôme umami pour une sauce, avec une sucrosité égale à 1, adapté à la cuisson.",
+    "expected_target_id": "AR-ail-roti-sauces",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 1\n\nTenue à la chaleur exigée : élevée.\n\n1. Ail rôti - sauces (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : sauces\n- Sucrosité : 1\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 138.83 €/kg\n  Délai : 20 jours\n  Volume minimum : 25.00 kg\n\n2. Bœuf - sauces (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : sauces\n- Sucrosité : 1\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 129.02 €/kg\n  Délai : 21 jours\n  Volume minimum : 25.00 kg\n\n3. Poulet - sauces (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : sauces\n- Sucrosité : 1\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 138.43 €/kg\n  Délai : 20 jours\n  Volume minimum : 10.00 kg",
+    "suggestions": [
+      "Ail rôti - sauces",
+      "Bœuf - sauces",
+      "Poulet - sauces"
+    ],
+    "source_ids": [
+      "AR-ail-roti-sauces",
+      "AR-buf-sauces",
+      "AR-poulet-sauces"
+    ],
+    "target_in_sources": true,
+    "source_count": 3,
+    "compliant_source_count": 3,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-ail-roti-sauces",
+        "is_synthetic": true,
+        "text": "Arôme : Ail rôti - sauces. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : sauces. Sucrosité : 1. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 138.83 euros/kg. Délai : 20 jours. Volume minimum : 25.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7569656372070312,
+        "nom": "Ail rôti - sauces",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "sauces"
+        ],
+        "sucrosite": 1,
+        "tenue_chaleur": "élevée",
+        "prix": 138.83,
+        "delai": 20
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-buf-sauces",
+        "is_synthetic": true,
+        "text": "Arôme : Bœuf - sauces. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : sauces. Sucrosité : 1. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 129.02 euros/kg. Délai : 21 jours. Volume minimum : 25.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7481935024261475,
+        "nom": "Bœuf - sauces",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "sauces"
+        ],
+        "sucrosite": 1,
+        "tenue_chaleur": "élevée",
+        "prix": 129.02,
+        "delai": 21
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-poulet-sauces",
+        "is_synthetic": true,
+        "text": "Arôme : Poulet - sauces. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : sauces. Sucrosité : 1. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 138.43 euros/kg. Délai : 20 jours. Volume minimum : 10.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7475018501281738,
+        "nom": "Poulet - sauces",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "sauces"
+        ],
+        "sucrosite": 1,
+        "tenue_chaleur": "élevée",
+        "prix": 138.43,
+        "delai": 20
+      }
+    ],
+    "latency_ms": 40208.1,
+    "expected_target_name_from_aromes_api": "Ail rôti - sauces",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "SAL-04",
+    "question": "Je cherche un arôme salé pour un snack, avec une sucrosité égale à 2, adapté à la cuisson.",
+    "expected_target_id": "AR-ail-roti-snacks",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 2\n\nTenue à la chaleur exigée : élevée.\n\n1. Tomate grillée - snacks (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : snacks\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 55.88 €/kg\n  Délai : 28 jours\n  Volume minimum : 10.00 kg\n\n2. Ail rôti - snacks (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : snacks\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 110.58 €/kg\n  Délai : 23 jours\n  Volume minimum : 25.00 kg\n\n3. Bœuf - snacks (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : snacks\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 99.41 €/kg\n  Délai : 20 jours\n  Volume minimum : 10.00 kg\n\n4. Légumes grillés - snacks (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : snacks\n- Sucrosité : 2\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 63.79 €/kg\n  Délai : 29 jours\n  Volume minimum : 10.00 kg",
+    "suggestions": [
+      "Tomate grillée - snacks",
+      "Ail rôti - snacks",
+      "Bœuf - snacks",
+      "Légumes grillés - snacks"
+    ],
+    "source_ids": [
+      "AR-tomate-grillee-snacks",
+      "AR-ail-roti-snacks",
+      "AR-buf-snacks",
+      "AR-legumes-grilles-snacks"
+    ],
+    "target_in_sources": true,
+    "source_count": 4,
+    "compliant_source_count": 4,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-tomate-grillee-snacks",
+        "is_synthetic": true,
+        "text": "Arôme : Tomate grillée - snacks. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : snacks. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 55.88 euros/kg. Délai : 28 jours. Volume minimum : 10.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7840906977653503,
+        "nom": "Tomate grillée - snacks",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "snacks"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 55.88,
+        "delai": 28
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-ail-roti-snacks",
+        "is_synthetic": true,
+        "text": "Arôme : Ail rôti - snacks. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : snacks. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 110.58 euros/kg. Délai : 23 jours. Volume minimum : 25.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7824580669403076,
+        "nom": "Ail rôti - snacks",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "snacks"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 110.58,
+        "delai": 23
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-buf-snacks",
+        "is_synthetic": true,
+        "text": "Arôme : Bœuf - snacks. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : snacks. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 99.41 euros/kg. Délai : 20 jours. Volume minimum : 10.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7804204821586609,
+        "nom": "Bœuf - snacks",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "snacks"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 99.41,
+        "delai": 20
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-legumes-grilles-snacks",
+        "is_synthetic": true,
+        "text": "Arôme : Légumes grillés - snacks. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : snacks. Sucrosité : 2. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 63.79 euros/kg. Délai : 29 jours. Volume minimum : 10.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7721047401428223,
+        "nom": "Légumes grillés - snacks",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "snacks"
+        ],
+        "sucrosite": 2,
+        "tenue_chaleur": "élevée",
+        "prix": 63.79,
+        "delai": 29
+      }
+    ],
+    "latency_ms": 40909.03,
+    "expected_target_name_from_aromes_api": "Ail rôti - snacks",
+    "target_name_mentioned_in_answer": true
+  },
+  {
+    "case_id": "SAL-05",
+    "question": "Je cherche un arôme de bouillon pour une soupe, avec une sucrosité égale à 1, adapté à la cuisson.",
+    "expected_target_id": "AR-ail-roti-soupes",
+    "http_status": 200,
+    "status": "recommendations_ready",
+    "model": "qwen2.5:1.5b",
+    "answer": "Voici les arômes du catalogue les plus proches de votre demande :\n\nCritères numériques appliqués :\n- sucrosité = 1\n\nTenue à la chaleur exigée : élevée.\n\n1. Bœuf - soupes (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : soupes\n- Sucrosité : 1\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 118.85 €/kg\n  Délai : 28 jours\n  Volume minimum : 25.00 kg\n\n2. Tomate grillée - soupes (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : soupes\n- Sucrosité : 1\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 90.04 €/kg\n  Délai : 29 jours\n  Volume minimum : 10.00 kg\n\n3. Ail rôti - soupes (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : soupes\n- Sucrosité : 1\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 127.45 €/kg\n  Délai : 23 jours\n  Volume minimum : 25.00 kg\n\n4. Légumes grillés - soupes (Notes salées)\n- Notes : Profil salé, cuisiné et savoureux.\n- Applications : soupes\n- Sucrosité : 1\n  Tenue à la chaleur : élevée\n  Certifications : non renseigné\n  Prix indicatif : 116.65 €/kg\n  Délai : 23 jours\n  Volume minimum : 10.00 kg",
+    "suggestions": [
+      "Bœuf - soupes",
+      "Tomate grillée - soupes",
+      "Ail rôti - soupes",
+      "Légumes grillés - soupes"
+    ],
+    "source_ids": [
+      "AR-buf-soupes",
+      "AR-tomate-grillee-soupes",
+      "AR-ail-roti-soupes",
+      "AR-legumes-grilles-soupes"
+    ],
+    "target_in_sources": true,
+    "source_count": 4,
+    "compliant_source_count": 4,
+    "sources": [
+      {
+        "source_type": "arome",
+        "source_id": "AR-buf-soupes",
+        "is_synthetic": true,
+        "text": "Arôme : Bœuf - soupes. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : soupes. Sucrosité : 1. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 118.85 euros/kg. Délai : 28 jours. Volume minimum : 25.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7626388072967529,
+        "nom": "Bœuf - soupes",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "soupes"
+        ],
+        "sucrosite": 1,
+        "tenue_chaleur": "élevée",
+        "prix": 118.85,
+        "delai": 28
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-tomate-grillee-soupes",
+        "is_synthetic": true,
+        "text": "Arôme : Tomate grillée - soupes. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : soupes. Sucrosité : 1. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 90.04 euros/kg. Délai : 29 jours. Volume minimum : 10.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7577775120735168,
+        "nom": "Tomate grillée - soupes",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "soupes"
+        ],
+        "sucrosite": 1,
+        "tenue_chaleur": "élevée",
+        "prix": 90.04,
+        "delai": 29
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-ail-roti-soupes",
+        "is_synthetic": true,
+        "text": "Arôme : Ail rôti - soupes. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : soupes. Sucrosité : 1. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 127.45 euros/kg. Délai : 23 jours. Volume minimum : 25.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.7526754140853882,
+        "nom": "Ail rôti - soupes",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "soupes"
+        ],
+        "sucrosite": 1,
+        "tenue_chaleur": "élevée",
+        "prix": 127.45,
+        "delai": 23
+      },
+      {
+        "source_type": "arome",
+        "source_id": "AR-legumes-grilles-soupes",
+        "is_synthetic": true,
+        "text": "Arôme : Légumes grillés - soupes. Famille : Notes salées. Notes : Profil salé, cuisiné et savoureux.. Applications : soupes. Sucrosité : 1. Tenue à la chaleur : élevée. Certifications : non renseigné. Prix indicatif : 116.65 euros/kg. Délai : 23 jours. Volume minimum : 10.00 kg. Source : Profil de démonstration synthétique inspiré de familles publiques Givaudan ; ne représente pas une référence SKU Givaudan authentifiée. Sucrosité (échelle 1-5), tenue à la chaleur, certification, prix, délai et volume minimum sont des estimations fictives, non vérifiées et non contractuelles. Sources : https://www.givaudan.com/taste-wellbeing/feel-good/taste-collections ; https://www.givaudan.com/taste-wellbeing/market-drivers/naturals ; https://www.givaudan.com/taste-wellbeing/segments/givaudan-flavour-ingredients/gfi-kitchen-ingredients.",
+        "score": 0.750657320022583,
+        "nom": "Légumes grillés - soupes",
+        "famille": "Notes salées",
+        "notes": "Profil salé, cuisiné et savoureux.",
+        "applications": [
+          "soupes"
+        ],
+        "sucrosite": 1,
+        "tenue_chaleur": "élevée",
+        "prix": 116.65,
+        "delai": 23
+      }
+    ],
+    "latency_ms": 39822.75,
+    "expected_target_name_from_aromes_api": "Ail rôti - soupes",
+    "target_name_mentioned_in_answer": true
+  }
+]

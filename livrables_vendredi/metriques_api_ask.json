@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2026-11-13T18:55:01.338369+00:00",
+  "endpoint": "http://127.0.0.1:8001/ask",
+  "api_version": "6.3.0",
+  "dataset": "cas_reference_30.jsonl",
+  "case_count": 30,
+  "status_counts": {
+    "recommendations_ready": 30
+  },
+  "recommendations_ready_count": 30,
+  "target_in_api_sources_count": 29,
+  "target_in_api_sources_rate": 0.9666666666666667,
+  "recommendation_target_hit_rate": 0.9666666666666667,
+  "api_source_constraint_compliance": 1.0,
+  "api_source_count": 90,
+  "synthetic_source_rate": 1.0,
+  "latency_ms_mean": 31907.93,
+  "latency_ms_median": 33016.43,
+  "latency_ms_p95": 43634.37,
+  "scope_note": "Mesure des réponses HTTP /ask sur le jeu synthétique de 30 cas. La latence inclut l'API, l'embedding, le retrieval, le SQL et la génération Qwen. Ce n'est pas une validation indépendante ou de production.",
+  "catalogue_from_aromes_endpoint": {
+    "row_count": 201,
+    "synthetic_row_count": 201,
+    "synthetic_row_rate": 1.0
+  },
+  "target_name_mentioned_in_answer_count": 29,
+  "target_name_mentioned_in_answer_rate": 0.9666666666666667
+}
